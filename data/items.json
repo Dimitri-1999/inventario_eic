@@ -1,56 +1,3719 @@
 [
   {
-    "id": "1001",
-    "descripcion": "Escritorio en L con superficie de madera",
-    "ubicacion": "Oficina rectoría",
-    "observacion": "Buen estado",
-    "tipo_inventario": "Mayor",
-    "funcionario": "rector",
-    "imagen": "fotos_inventario/rector/1001.jpg"
-  },
-  {
-    "id": "1002",
-    "descripcion": "Computador portátil HP ProBook",
-    "ubicacion": "Oficina rectoría",
-    "observacion": "Con maletín incluido",
-    "tipo_inventario": "Mayor",
-    "funcionario": "rector",
-    "imagen": "fotos_inventario/rector/1002.jpg"
-  },
-  {
-    "id": "1003",
-    "descripcion": "Silla ergonómica giratoria",
-    "ubicacion": "Sala de sistemas",
+    "id": "106884",
+    "descripcion": "AIRE ACONDICIONADO TIPO PISO TECHO DE 36.000 BTU 220V",
+    "ubicacion": "",
     "observacion": "",
-    "tipo_inventario": "Menor",
-    "funcionario": "jhon",
-    "imagen": "fotos_inventario/jhon/1003.jpg"
-  },
-  {
-    "id": "1004",
-    "descripcion": "Videobeam Epson PowerLite",
-    "ubicacion": "Auditorio",
-    "observacion": "Requiere cambio de lámpara pronto",
     "tipo_inventario": "Mayor",
-    "funcionario": "jhon",
+    "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
   },
   {
-    "id": "1005",
-    "descripcion": "Licencia ArcGIS Online (usuario nombrado)",
-    "ubicacion": "N/A",
-    "observacion": "Renovación anual",
-    "tipo_inventario": "Intangible",
-    "funcionario": "yerly",
+    "id": "107220",
+    "descripcion": "COMPUTADOR, DELL OPTIPLEX 790 MINITORRE, INTEL CORE",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
   },
   {
-    "id": "1006",
-    "descripcion": "Calculadora científica Casio",
-    "ubicacion": "Sala de profesores",
+    "id": "107335",
+    "descripcion": "COMPUTADOR, DELL OPTIPLEX 790 MINITORRE, INTEL CORE",
+    "ubicacion": "",
     "observacion": "",
-    "tipo_inventario": "Menor",
-    "funcionario": "yerly",
-    "imagen": "fotos_inventario/yerly/1006.jpg"
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "107357",
+    "descripcion": "COMPUTADOR, DELL OPTIPLEX 790 MINITORRE, INTEL CORE",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "108020",
+    "descripcion": "TELEFONO IP 9620  08N515405420",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "109432",
+    "descripcion": "TELEVISOR LG DE 50 MODELO 50PA4500",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "109608",
+    "descripcion": "COMPUTADOR DELL OPTIPLEX 9010 MINITORRE, INTEL CORE",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "113974",
+    "descripcion": "COMPUTADOR DELL OPTIPLEX 9020 CHASIS MINITORRE,",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "116454",
+    "descripcion": "SILLA ERGONOMICA PRESIDENTE CUERO ROBLE REF. S122C",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "116698",
+    "descripcion": "COMPUTADOR DE ESCRITORIO DELL OPTIPLEX 9020 INTEL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "117105",
+    "descripcion": "MUEBLE RECEPCION SUP SOLIDA BLANCO Y DILATADORES",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "118335",
+    "descripcion": "TELEFONO 1608-I IP DESKPHONE ICON ONLY",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "119680",
+    "descripcion": "VIDEO BEAM TIPO 1: MINIMO 3000 LUMENES",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "121827",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 401",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "121831",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 401",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "121834",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 401",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "121845",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 401",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "121851",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 401",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122243",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122244",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122251",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122263",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 1 CICELPA)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122279",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 1 CICELPA)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122287",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 1 CICELPA)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122290",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 1 CICELPA)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122291",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 1 CICELPA)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122292",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 1 CICELPA)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122293",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 1 CICELPA)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122296",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 1 CICELPA)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122300",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 1 CICELPA)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122301",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 1 CICELPA)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122313",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 18-204)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122339",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 18-204)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122346",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 18-210)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122365",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 18-210)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122384",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 18-210)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122397",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 18-211)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122398",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 18-211)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122401",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 18-211)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122408",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 18-211)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122417",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (AULA 18-211)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122712",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3  (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122720",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3  (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122724",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3  (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122726",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3  (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122735",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3  (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122809",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122814",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122837",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "122873",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3 (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "123147",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3  (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "123158",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3  (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "123162",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3  (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "123165",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3  (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "123181",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3  (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "123188",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3  (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "123238",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3  (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "123257",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3  (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "123262",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3  (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "123266",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3  (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "123267",
+    "descripcion": "SILLA FIJA MARIPOSA TAPIZADA TIPO S3  (CAMILO AULA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "125505",
+    "descripcion": "PUESTO DE TRABAJO MT 8A ESPECIAL TORINO",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "125509",
+    "descripcion": "BIBLIOTECA TRES CAJONES DOS PUERTAS BASE SUPERIOR",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "125516",
+    "descripcion": "BIBLIOTECA BAJA TIPO B-1",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126656",
+    "descripcion": "PUESTO DE TRABAJO TIPO PT5 1.20 X 0.60 MTS (LAB.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126657",
+    "descripcion": "PUESTO DE TRABAJO TIPO PT5 1.20 X 0.60 MTS (LAB.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126658",
+    "descripcion": "PUESTO DE TRABAJO TIPO PT5 1.20 X 0.60 MTS (CIVIL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126660",
+    "descripcion": "PUESTO DE TRABAJO TIPO PT5 1.20 X 0.60 MTS (CIVIL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126713",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126714",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126715",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126716",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126717",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126718",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126719",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126720",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126721",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126722",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126724",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126725",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126726",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126727",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126728",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126729",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126730",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126731",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126732",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126733",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126734",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126735",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126736",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "126737",
+    "descripcion": "MESA CUATRO PUESTOS TIPO MTI 2.40 X 0.60 MTS (ING.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127239",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127240",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127241",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127242",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127243",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127244",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127245",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127246",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127247",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127248",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127249",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127250",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127252",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127253",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127254",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127255",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127256",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127257",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127258",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127259",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127260",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127261",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127262",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127263",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127265",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127266",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127267",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127268",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127269",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127270",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127271",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127272",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127273",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127274",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127275",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127276",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127277",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127278",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127279",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 04)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127280",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127281",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127282",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127283",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127284",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127285",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127286",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127287",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127288",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127289",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127290",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127291",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127292",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127293",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127294",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127295",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127296",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127297",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127298",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127299",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127300",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127301",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127302",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127303",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127304",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127305",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127306",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127307",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127308",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127309",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127310",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127311",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127312",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127313",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127314",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127315",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127316",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127317",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127318",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127319",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127320",
+    "descripcion": "SILLA INTERLOCUTORA TIPO S4 (ING.CIVIL AULA 039)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127700",
+    "descripcion": "SILLA S3-A TIPO ISONET (ING.CIVIL 123)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "127701",
+    "descripcion": "SILLA S3-A TIPO ISONET (ING.CIVIL 123)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128083",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128084",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128085",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128086",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128087",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128088",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128089",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128090",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128091",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128092",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128093",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128094",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128095",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128096",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128097",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128098",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128099",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128100",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128101",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128102",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128103",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128104",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128105",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128106",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128107",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128108",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128109",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128110",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128111",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128112",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128113",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128114",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128115",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128116",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128117",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128118",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128119",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128120",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128121",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128123",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128124",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128125",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128126",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128127",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128128",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128129",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128130",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128131",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128132",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128133",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128134",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128135",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128136",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128137",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128138",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128139",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128140",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128141",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128142",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128143",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128144",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128145",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128146",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128147",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128148",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128149",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128150",
+    "descripcion": "SILLA S5 TIPO MIZU (ING.CIVIL C.ESTUDIOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128419",
+    "descripcion": "BIBLIOTECA TIPO 2 METALICA A UN CUERPO DE 1.00 X 2.00",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "128572",
+    "descripcion": "TELON MANUAL DE PROYECCION 2.00 X 2.00 MTS (ING.CIVIL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "132025",
+    "descripcion": "VENTILADOR DE PARED 18 MARCA SHIMASU, MAX FLOW, CON",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "132037",
+    "descripcion": "VENTILADOR DE PARED 18 MARCA SHIMASU, MAX FLOW, SIN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "132039",
+    "descripcion": "VENTILADOR DE PARED 18 MARCA SHIMASU, MAX FLOW, SIN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "132049",
+    "descripcion": "VENTILADOR DE PARED 18 MARCA SHIMASU, MAX FLOW, SIN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "132673",
+    "descripcion": "VIDEO BEAM DE 3600 LUMENS.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "132674",
+    "descripcion": "TELON DE PARED DE PROYECCION ELECTRICO DE 213 X 213",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "148772",
+    "descripcion": "TELON ELECTRICO DE PROYECCION DE 2MTS X 2MTS CON",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "150552",
+    "descripcion": "PUESTO DE TRABAJO PARA PROFESOR SALON 247 DEL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "150565",
+    "descripcion": "TELON DE PROYECCION ELECTRICO DE 240 CMS X 240 CMS",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "150566",
+    "descripcion": "TELON DE PROYECCION ELECTRICO DE 240 CMS X 240 CMS",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "150580",
+    "descripcion": "AIRE ACONDICIONADO  TIPO MINISPLIT DE 18.000 BTU PARA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "150581",
+    "descripcion": "AIRE ACONDICIONADO TIPO MINISPLIT DE 18.000 BTU PARA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "150582",
+    "descripcion": "AIRE ACONDICIONADO TIPO MINISPLIT DE 18.000 BTU PARA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "150583",
+    "descripcion": "AIRE ACONDICIONADO TIPO MINISPLIT DE 18.000 BTU PARA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "150584",
+    "descripcion": "AIRE ACONDICIONADO TIPO MINISPLIT DE 18.000 BTU PARA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "150585",
+    "descripcion": "AIRE ACONDICIONADO  TIPO MINISPLIT DE 18.000 BTU PARA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "150672",
+    "descripcion": "TELON DE PARED PARA PROYECCION DE 2.80 X 2.40 PARA EL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "15120",
+    "descripcion": "MESA HEXAGONAL PARA JUNTAS CON VIDRIO DE 10 MM CON",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "153105",
+    "descripcion": "PROYECTOR CON MODULO INALAMBRICO, LUMINOSIDAD 3600",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "154283",
+    "descripcion": "ACCESS POINT (LABORATORIO DE PESADOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "154284",
+    "descripcion": "ACCESS POINT (LABORATORIO DE PESADOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "154285",
+    "descripcion": "ACCESS POINT (LABORATORIO DE PESADOS)",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "154688",
+    "descripcion": "PROYECTOR INALAMBRICO, CON LUMINOSIDAD DE 3600 ANSI",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "155175",
+    "descripcion": "TABLET SAMSUNG GALAXY TAB A 8.0 WIFI - 16GB",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "156878",
+    "descripcion": "AIRE ACONDICIONADO PISO TECHO MARCA LG DE 40.000 BTU",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "156879",
+    "descripcion": "AIRE ACONDICIONADO PISO TECHO MARCA LG DE 40.000 BTU",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "163210",
+    "descripcion": "MONITOR INDUSTRIAL MARGA LG DE 75 75UL35G",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "163423",
+    "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 65 65UH7F",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "163444",
+    "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 65 65UH7F",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "163447",
+    "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 65 65UH7F",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "163448",
+    "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 65 65UH7F",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "163449",
+    "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 65 65UH7F",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "163520",
+    "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 55 55UH7F.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "163834",
+    "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 55 55UH7F",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "163837",
+    "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 55 55UH7F",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "163838",
+    "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 55 55UH7F",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164225",
+    "descripcion": "ATRIL PARA AULAS HIBRIDAS",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164226",
+    "descripcion": "ATRIL PARA AULAS HIBRIDAS",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164237",
+    "descripcion": "ATRIL PARA AULAS HIBRIDAS",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164240",
+    "descripcion": "ATRIL PARA AULAS HIBRIDAS",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164241",
+    "descripcion": "ATRIL PARA AULAS HIBRIDAS",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164242",
+    "descripcion": "ATRIL PARA AULAS HIBRIDAS",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164243",
+    "descripcion": "ATRIL PARA AULAS HIBRIDAS",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164273",
+    "descripcion": "ATRIL PARA AULAS HIBRIDAS",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164274",
+    "descripcion": "ATRIL PARA AULAS HIBRIDAS",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164276",
+    "descripcion": "ATRIL PARA AULAS HIBRIDAS",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164917",
+    "descripcion": "MONITOR IT MARCA LG DE 22 22MK400H",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164931",
+    "descripcion": "MONITOR IT MARCA LG DE 22 22MK400H",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164937",
+    "descripcion": "MONITOR IT MARCA LG DE 22 22MK400H",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164943",
+    "descripcion": "MONITOR IT MARCA LG DE 22 22MK400H",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164946",
+    "descripcion": "MONITOR IT MARCA LG DE 22 22MK400H",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164947",
+    "descripcion": "MONITOR IT MARCA LG DE 22 22MK400H",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164948",
+    "descripcion": "MONITOR IT MARCA LG DE 22 22MK400H",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164977",
+    "descripcion": "MONITOR IT MARCA LG DE 22 22MK400H",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164978",
+    "descripcion": "MONITOR IT MARCA LG DE 22 22MK400H",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "164980",
+    "descripcion": "MONITOR IT MARCA LG DE 22 22MK400H",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "166283",
+    "descripcion": "EQUIPO DE VIDEOCONFERENCIA TODO EN UNO POLY STUDIO.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "166284",
+    "descripcion": "EQUIPO DE VIDEOCONFERENCIA TODO EN UNO POLY STUDIO.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "166295",
+    "descripcion": "EQUIPO DE VIDEOCONFERENCIA TODO EN UNO POLY STUDIO.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "166299",
+    "descripcion": "EQUIPO DE VIDEOCONFERENCIA TODO EN UNO POLY STUDIO.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "166300",
+    "descripcion": "EQUIPO DE VIDEOCONFERENCIA TODO EN UNO POLY STUDIO.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "166301",
+    "descripcion": "EQUIPO DE VIDEOCONFERENCIA TODO EN UNO POLY STUDIO.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "166302",
+    "descripcion": "EQUIPO DE VIDEOCONFERENCIA TODO EN UNO POLY STUDIO.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "166335",
+    "descripcion": "EQUIPO DE VIDEOCONFERENCIA TODO EN UNO POLY STUDIO.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "166336",
+    "descripcion": "EQUIPO DE VIDEOCONFERENCIA TODO EN UNO POLY STUDIO.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "166338",
+    "descripcion": "EQUIPO DE VIDEOCONFERENCIA TODO EN UNO POLY STUDIO.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "166664",
+    "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 55 55UH7F",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168653",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168654",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168655",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168656",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168657",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168659",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168660",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168661",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168662",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168663",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168664",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168666",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168667",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168668",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168669",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168670",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168671",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168672",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168678",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168680",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "168681",
+    "descripcion": "VENTILADOR DE PARED MARCA SAMURAI TURBO SILENCE MAXX",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "174061",
+    "descripcion": "TABLERO BORRABLE EN MDF CON FORMICA CUADRICULADA,",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "174105",
+    "descripcion": "SISTEMA DE SEGURIDAD: CONTROL DE ACCESO Y CAMARAS DE",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "174106",
+    "descripcion": "SISTEMA DE SEGURIDAD: CONTROL DE ACCESO Y CAMARAS DE",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "175119",
+    "descripcion": "COMPUTADOR PORTATIL PORTATIL MARCA ASUS P1412 - CORE",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "175125",
+    "descripcion": "COMPUTADOR HP COMPUTADOR DE ESCRITORIO MARCA HP,",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "176259",
+    "descripcion": "MROYECTOR VIDEO BEAM MARCA EPSON, MODELO POWERLITE",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "177636",
+    "descripcion": "MONITOR 2K SAMSUNG PLANO",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "177637",
+    "descripcion": "IMPRESORA MULTIFUNCIONAL A COLOR EPSON",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "177939",
+    "descripcion": "TELON DE PARED MOTORIZADO CON CONTROL REMOTO",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "178333",
+    "descripcion": "AIRE ACONDICIONADO MINI SPLIT DE 18.000 BTU/H 220V",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "178676",
+    "descripcion": "PUESTO DE TRABAJO EN U, PARA OFICINA DE PROFESOR,",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "178703",
+    "descripcion": "SILLA OPERATIVA GIRATORIA REFERENCIA WIWA O SIMILAR,",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "178727",
+    "descripcion": "TABLERO EN FORMICA EXPOGRAFO EN FORMICA PIZARRóN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "178748",
+    "descripcion": "MODULO ALMACENAMIENTO VERTICAL TIPO FOLDERAMA EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "178807",
+    "descripcion": "SILLA INTERLOCUTORA REFERENCIA BARU O SIMILAR, CON",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "178808",
+    "descripcion": "SILLA INTERLOCUTORA REFERENCIA BARU O SIMILAR, CON",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "178862",
+    "descripcion": "BIBLIOTECA BAJA CON ENTREPAñO Y PUERTAS.",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "36082",
+    "descripcion": "BIBLIOTECA EN MADERA CEDRO DE 2,10 X 3,08 X 45 CMS. 2",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "56158",
+    "descripcion": "PUPITRE METALICOS EN TABLEX DE 14MM Y FORMICA BL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "56159",
+    "descripcion": "PUPITRE METALICOS EN TABLEX DE 14MM Y FORMICA BL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "56160",
+    "descripcion": "PUPITRE METALICOS EN TABLEX DE 14MM Y FORMICA BL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "56161",
+    "descripcion": "PUPITRE METALICOS EN TABLEX DE 14MM Y FORMICA BL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "56162",
+    "descripcion": "PUPITRE METALICOS EN TABLEX DE 14MM Y FORMICA BL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "56163",
+    "descripcion": "PUPITRE METALICOS EN TABLEX DE 14MM Y FORMICA BL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "56164",
+    "descripcion": "PUPITRE METALICOS EN TABLEX DE 14MM Y FORMICA BL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "56165",
+    "descripcion": "PUPITRE METALICOS EN TABLEX DE 14MM Y FORMICA BL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "56353",
+    "descripcion": "AMPLIFICADOR DE SONIDO DTS PANASONIC",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "56570",
+    "descripcion": "AIRE ACONDICIONADO MODBRCS0481BD+F3SA048S06 SISTEMA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72003",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72004",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72005",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72006",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72007",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72008",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72009",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72010",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72011",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72012",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72013",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72014",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72015",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72016",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72017",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72018",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72019",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72020",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72021",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72022",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72023",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "72024",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "75051",
+    "descripcion": "EQUIPO DE AIRE ACONDICIONADO TIPO MINISPLIT DE 48.000",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "75261",
+    "descripcion": "SILLA MOVIE CON BRAZOS, CON ASIENTO TAPIZADO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "76588",
+    "descripcion": "PUESTO DE TRABAJO CON DIVISION",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "76589",
+    "descripcion": "PUESTO DE TRABAJO CON DIVISION",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "76590",
+    "descripcion": "PUESTO DE TRABAJO CON DIVISION",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "76591",
+    "descripcion": "PUESTO DE TRABAJO CON DIVISION",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "76592",
+    "descripcion": "PUESTO DE TRABAJO CON DIVISION",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "76593",
+    "descripcion": "PUESTO DE TRABAJO CON DIVISION",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "76594",
+    "descripcion": "PUESTO DE TRABAJO CON DIVISION",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "76595",
+    "descripcion": "PUESTO DE TRABAJO CON DIVISION",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "76596",
+    "descripcion": "PUESTO DE TRABAJO CON DIVISION",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "76597",
+    "descripcion": "PUESTO DE TRABAJO CON DIVISION",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "76598",
+    "descripcion": "PUESTO DE TRABAJO CON DIVISION",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "76599",
+    "descripcion": "PUESTO DE TRABAJO CON DIVISION",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "76600",
+    "descripcion": "PUESTO DE TRABAJO CON DIVISION",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "76601",
+    "descripcion": "PUESTO DE TRABAJO CON DIVISION",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "76602",
+    "descripcion": "PUESTO DE TRABAJO CON DIVISION",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "76603",
+    "descripcion": "PUESTO DE TRABAJO CON DIVISION",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "76604",
+    "descripcion": "PUESTO DE TRABAJO CON DIVISION",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "76605",
+    "descripcion": "PUESTO DE TRABAJO CON DIVISION",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "78737",
+    "descripcion": "MESA EN VIDRIO TEMPLADO, PARA LA SALA DE REUNIONES DE",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "89050",
+    "descripcion": "SILLA GIRATORIA BASE NYLON FRODO ALTA CON BRAZOS",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "89200",
+    "descripcion": "AIRE ACONDICIONADO MINI SPLIT DE 36.000 BTU/H MODELO",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "91083",
+    "descripcion": "TABLERO INTELIGENTE MARCA SMART BOARD TM REF SB680 DE",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "91710",
+    "descripcion": "TELEFONO IP 1608, INCLUYE PATCH CORD Y LICENCIA",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "94214",
+    "descripcion": "PUPITRE ELABORACION EN LAMINA CALIBRE 18 (ING.CIVIL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "94215",
+    "descripcion": "PUPITRE ELABORACION EN LAMINA CALIBRE 18 (ING.CIVIL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "94216",
+    "descripcion": "PUPITRE ELABORACION EN LAMINA CALIBRE 18 (ING.CIVIL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "94217",
+    "descripcion": "PUPITRE ELABORACION EN LAMINA CALIBRE 18 (ING.CIVIL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "94270",
+    "descripcion": "PUPITRE ELABORACION EN LAMINA CALIBRE 18 (ING.CIVIL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "94271",
+    "descripcion": "PUPITRE ELABORACION EN LAMINA CALIBRE 18 (ING.CIVIL",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
+  },
+  {
+    "id": "94416",
+    "descripcion": "SILLA PLASTICA SELECTA CON ESPALDAR Y ASIENTO EN",
+    "ubicacion": "",
+    "observacion": "",
+    "tipo_inventario": "Mayor",
+    "funcionario": "MILLER HUMBERTO SALAS R",
+    "imagen": ""
   }
 ]
