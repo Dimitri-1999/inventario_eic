@@ -38,7 +38,7 @@ function render(items) {
   }
 
   tbody.innerHTML = filtered.map(it => `
-    <tr>
+    <tr class="clickable" data-id="${it.id}" tabindex="0" role="button" aria-label="Ver detalle de ${it.descripcion}">
       <td>${thumb(it)}</td>
       <td class="id">${it.id}</td>
       <td>${it.descripcion}${it.observacion ? `<br><span style="color:var(--ink-soft);font-size:0.85rem">${it.observacion}</span>` : ''}</td>
@@ -47,6 +47,14 @@ function render(items) {
       <td>${it.funcionario || ''}</td>
     </tr>
   `).join('');
+
+  tbody.querySelectorAll('tr.clickable').forEach(tr => {
+    const go = () => { location.href = `item.html?id=${encodeURIComponent(tr.dataset.id)}`; };
+    tr.addEventListener('click', go);
+    tr.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); }
+    });
+  });
 }
 
 function populateFuncionarioFilter(items) {
