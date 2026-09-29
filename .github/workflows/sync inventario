@@ -1,0 +1,39 @@
+name: Sincronizar inventario desde Excel
+
+# Se dispara cuando se sube (push) un cambio en cualquier .xlsx dentro de data/,
+# o manualmente desde la pestaña "Actions" de GitHub.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/*.xlsx"
+      - "data/*.xls"
+  workflow_dispatch: {}
+
+# Necesario para que la acción pueda hacer commit y push del items.json actualizado
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r scripts/requirements.txt
+
+      - name: Regenerar data/items.json a partir del Excel
+        run: python scripts/excel_to_json.py
+
+      - name: Commit y push si hubo cambios
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: sincronizar items.json desde Excel [skip ci]"
+          file_pattern: "data/items.json"
