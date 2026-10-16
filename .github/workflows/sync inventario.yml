@@ -28,7 +28,7 @@ jobs:
           python-version: "3.12"
 
       - name: Instalar dependencias
-        run: pip install -r scripts/requirements.txt
+        run: pip install pandas openpyxl
 
       - name: Regenerar data/items.json a partir del Excel
         run: python scripts/excel_to_json.py
