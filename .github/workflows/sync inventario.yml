@@ -31,7 +31,7 @@ jobs:
         run: pip install pandas openpyxl
 
       - name: Regenerar data/items.json a partir del Excel
-        run: python scripts/excel_to_json.py
+        run: python scripts/excel_json.py
 
       - name: Commit y push si hubo cambios
         uses: stefanzweifel/git-auto-commit-action@v5
