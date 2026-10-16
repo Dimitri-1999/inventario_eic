@@ -1,13 +1,14 @@
 name: Sincronizar inventario desde Excel
 
-# Se dispara cuando se sube (push) un cambio en cualquier .xlsx dentro de data/,
-# o manualmente desde la pestaña "Actions" de GitHub.
+# Se dispara cuando se sube (push) un cambio en un .xlsx dentro de data/ o en
+# las fotos de fotos_inventario/, o manualmente desde la pestaña "Actions".
 on:
   push:
     branches: [main]
     paths:
       - "data/*.xlsx"
       - "data/*.xls"
+      - "fotos_inventario/**"
   workflow_dispatch: {}
 
 # Necesario para que la acción pueda hacer commit y push del items.json actualizado

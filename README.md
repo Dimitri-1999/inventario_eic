@@ -134,23 +134,35 @@ ya hay.
 
 ## 6. Sincronización automática Excel → `items.json`
 
-`excel_json.py` lee el Excel y actualiza `data/items.json`,
+`scripts/excel_to_json.py` lee el Excel y actualiza `data/items.json`,
 **sin borrar nunca las fotos** que ya hayas cargado desde `admin.html` (el
 campo `imagen` de cada ítem nunca se toca desde este script). Si un ítem ya
 no aparece en el Excel, por defecto se conserva en `items.json` (se avisa
 por consola); solo se elimina si corres el script con `--prune`.
 
+### Enlace automático de fotos
+
+Si guardas cada foto como `<número de inventario>.jpg` dentro de
+`fotos_inventario/` (por ejemplo `fotos_inventario/miller/106884.jpg`), el
+script la enlaza solo en el campo `imagen` del ítem correspondiente
+(acepta `.jpg`, `.jpeg`, `.png` y `.webp`). No sobrescribe rutas ya
+existentes, avisa de fotos cuyo número no está en el inventario y muestra
+cuántos ítems quedan sin foto. Para desactivarlo: `--no-link-images`.
+
+El workflow también se dispara cuando haces `push` de fotos nuevas en
+`fotos_inventario/`, así que basta con subir las imágenes y GitHub actualiza
+`items.json` por ti.
+
 ### Uso local (en tu equipo, Windows)
 
 ```powershell
 cd C:\Users\carlos.garcia\Desktop\github\inventario_eic
-pip install pandas openpyxl
-python excel_json.py
+pip install -r scripts\requirements.txt
+python scripts\excel_to_json.py --excel "data\INVENTARIO 2026 MILLER.xlsx"
 ```
 
-Si no pasas `--excel`, el script busca automáticamente el archivo `INVENTARIO
-2026 MILLER` dentro de `data/`. También puedes indicar la ruta manualmente con
-`python excel_json.py --excel "data\INVENTARIO 2026 MILLER.xlsx"`.
+Si no pasas `--excel`, el script busca solo un archivo que coincida con
+`*INVENTARIO*MILLER*.xls*` dentro de `data/`.
 
 ### Automatización con GitHub Actions (`.github/workflows/sync-inventario.yml`)
 

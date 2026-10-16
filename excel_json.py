@@ -3,19 +3,21 @@
 Sincroniza data/items.json a partir del Excel de inventario.
 
 Uso local (Windows, PowerShell o CMD):
-    python excel_json.py
-    python excel_json.py --excel "data\\INVENTARIO 2026 MILLER.xlsx"
+    python scripts\\excel_to_json.py
+    python scripts\\excel_to_json.py --excel "C:\\Users\\carlos.garcia\\Desktop\\github\\inventario_eic\\data\\INVENTARIO 2026 MILLER.xlsx"
 
 Uso en GitHub Actions:
-    python excel_json.py --excel "data/INVENTARIO 2026 MILLER.xlsx"
+    python scripts/excel_to_json.py --excel "data/INVENTARIO 2026 MILLER.xlsx"
 
 Reglas de fusión con el items.json existente (para no perder trabajo hecho
 desde admin.html):
   - descripcion, ubicacion, observacion, tipo_inventario, funcionario:
     el Excel manda. Si una celda viene vacía y el ítem ya existía con un
     valor para ese campo, se conserva el valor anterior.
-  - imagen: NUNCA se toca aquí. Siempre se conserva lo que ya había en
-    items.json (las fotos solo se gestionan desde admin.html).
+  - imagen: si el ítem ya tenía una ruta, se conserva. Si está vacía, el
+    script busca en fotos_inventario/ un archivo llamado <numero>.jpg
+    (también .jpeg, .png, .webp) y enlaza la ruta automáticamente.
+    Usa --no-link-images para desactivar este enlace.
   - Ítems que están en items.json pero ya no aparecen en el Excel: por
     defecto se conservan (no se borran), y se listan en la consola como
     advertencia. Usa --prune para eliminarlos de verdad.
@@ -29,9 +31,11 @@ from pathlib import Path
 
 import pandas as pd
 
-REPO_ROOT = Path(__file__).resolve().parent
+REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_ITEMS_JSON = REPO_ROOT / "data" / "items.json"
 DEFAULT_DATA_DIR = REPO_ROOT / "data"
+PHOTOS_DIR = REPO_ROOT / "fotos_inventario"
+IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 
 # Nombre de columna normalizado -> nombre de campo en items.json
 COLUMN_MAP = {
@@ -59,10 +63,10 @@ def find_excel(explicit_path: str | None) -> Path:
             sys.exit(f"No se encontró el archivo de Excel: {path}")
         return path
 
-    candidates = sorted(DEFAULT_DATA_DIR.glob("*INVENTARIO*2026 *ILLER*.xls*"))
+    candidates = sorted(DEFAULT_DATA_DIR.glob("*INVENTARIO*MILLER*.xls*"))
     if not candidates:
         sys.exit(
-            f"No se encontró ningún Excel tipo 'INVENTARIO 2026 MILLER' en {DEFAULT_DATA_DIR}. "
+            f"No se encontró ningún Excel tipo 'INVENTARIO...MILLER...xlsx' en {DEFAULT_DATA_DIR}. "
             "Indica la ruta con --excel."
         )
     if len(candidates) > 1:
@@ -144,11 +148,38 @@ def merge_items(excel_rows: list[dict], existing_items: list[dict], prune: bool)
     return merged, stats, leftover
 
 
+def link_images(items: list[dict]) -> dict:
+    """Enlaza fotos <numero>.<ext> de fotos_inventario/ con los ítems sin imagen."""
+    stats = {"enlazadas": 0, "con_foto": 0, "sin_foto": 0, "huerfanas": []}
+    if not PHOTOS_DIR.exists():
+        stats["sin_foto"] = sum(1 for it in items if not it["imagen"])
+        return stats
+
+    # índice: número de inventario -> ruta relativa (con "/") de la foto
+    photos = {}
+    for f in sorted(PHOTOS_DIR.rglob("*")):
+        if f.is_file() and f.suffix.lower() in IMAGE_EXTS:
+            photos.setdefault(f.stem, f.relative_to(REPO_ROOT).as_posix())
+
+    ids = {it["id"] for it in items}
+    for it in items:
+        if not it["imagen"] and it["id"] in photos:
+            it["imagen"] = photos[it["id"]]
+            stats["enlazadas"] += 1
+        if it["imagen"]:
+            stats["con_foto"] += 1
+        else:
+            stats["sin_foto"] += 1
+    stats["huerfanas"] = sorted(n for n in photos if n not in ids)
+    return stats
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--excel", help="Ruta al archivo .xlsx (si no se indica, se busca en data/)")
     parser.add_argument("--items", default=str(DEFAULT_ITEMS_JSON), help="Ruta al items.json de salida")
     parser.add_argument("--prune", action="store_true", help="Elimina de items.json los ítems que ya no están en el Excel")
+    parser.add_argument("--no-link-images", action="store_true", help="No enlazar automáticamente las fotos de fotos_inventario/")
     args = parser.parse_args()
 
     excel_path = find_excel(args.excel)
@@ -163,6 +194,17 @@ def main():
         existing_items = json.loads(items_path.read_text(encoding="utf-8"))
 
     merged, stats, leftover = merge_items(excel_rows, existing_items, args.prune)
+
+    if not args.no_link_images:
+        img = link_images(merged)
+        print(
+            f"Fotos: enlazadas ahora {img['enlazadas']}  con foto {img['con_foto']}  "
+            f"sin foto {img['sin_foto']} de {len(merged)}"
+        )
+        if img["huerfanas"]:
+            print(f"Aviso: {len(img['huerfanas'])} foto(s) no coinciden con ningún número de inventario:")
+            for n in img["huerfanas"][:20]:
+                print(f"  - {n}")
 
     if leftover and not args.prune:
         print(f"Aviso: {len(leftover)} ítem(s) en items.json ya no están en el Excel (se conservan):")
