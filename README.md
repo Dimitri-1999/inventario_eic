@@ -1,44 +1,47 @@
-# Inventario de elementos (GitHub Pages)
+# Inventario EIC
 
-Sitio estático para consultar y editar un inventario de elementos, con los
-datos guardados como JSON versionado en el propio repositorio, incluyendo
-fotos y acceso con usuario/contraseña al formulario de edición.
+Sitio estático publicado con GitHub Pages para consultar el inventario de
+elementos, buscar y filtrar registros, ver sus detalles y fotografías, y
+administrar registros desde un formulario conectado a GitHub.
 
-## Estructura
+Los datos y las imágenes viven en este repositorio. GitHub Pages sirve el
+sitio; el formulario de administración usa la API de GitHub para guardar los
+cambios mediante commits. No hay un servidor propio.
 
-```
-inventario-git/
-├── index.html              # Vista pública: tabla con búsqueda y filtros
-├── item.html                # Detalle de un elemento (foto + información)
-├── admin.html                 # Login + formulario para añadir/editar/eliminar ítems
-├── generar-hash.html           # Utilidad para crear/cambiar contraseñas
+## Contenido del repositorio
+
+```text
+inventario_eic/
+├── index.html                         # Consulta, búsqueda y filtros
+├── item.html                          # Detalle de un elemento
+├── admin.html                         # Inicio de sesión y administración
+├── generar-hash.html                  # Generador de hash SHA-256
 ├── css/style.css
-├── js/app.js                    # Lógica de index.html
-├── js/detail.js                  # Lógica de item.html
-├── js/admin.js                    # Lógica de admin.html (login, lectura/escritura vía API de GitHub)
-├── data/items.json                 # Los datos del inventario
-├── data/credentials.json            # Usuarios y contraseñas (hash) para entrar a admin.html
-├── data/INVENTARIO 2026 MILLER.xlsx  # Excel fuente (se sincroniza a items.json)
-├── scripts/excel_to_json.py           # Script de sincronización Excel → items.json
-├── scripts/requirements.txt            # Dependencias del script (pandas, openpyxl)
-├── .github/workflows/sync-inventario.yml  # Automatiza la sincronización en cada push
-└── fotos_inventario/
-    ├── rector/
-    ├── jhon/
-    ├── yerly/
-    └── miller/
+├── js/app.js                          # Lógica de la consulta
+├── js/detail.js                       # Lógica del detalle
+├── js/admin.js                        # Administración mediante API de GitHub
+├── data/items.json                    # Inventario publicado
+├── data/credentials.json              # Usuarios y hashes del formulario
+├── data/INVENTARIO 2026 MILLER.xlsx   # Excel fuente
+├── scripts/excel_json.py              # Sincronización Excel → JSON
+├── scripts/requeriments.txt           # Dependencias de Python
+├── .github/workflows/sync inventario.yml
+└── fotos_inventario/                  # Fotografías de los elementos
 ```
 
-## 1. Publicar en GitHub Pages
+## Publicar el sitio
 
-1. Crea un repositorio en GitHub y sube el contenido de esta carpeta.
-2. Ve a **Settings → Pages**.
-3. En "Build and deployment", elige **Deploy from a branch**, rama `main`,
-   carpeta `/ (root)`.
-4. En un par de minutos tu sitio estará en
-   `https://<tu-usuario>.github.io/<tu-repo>/`.
+En GitHub, abre **Settings → Pages** y configura **Deploy from a branch**,
+rama `main`, carpeta `/ (root)`. GitHub Pages publicará el sitio en una URL
+como `https://<usuario>.github.io/<repositorio>/`.
 
-## 2. Campos de cada ítem (`data/items.json`)
+## Consultar el inventario
+
+La página principal permite buscar por número, descripción, ubicación u
+observación, y filtrar por tipo de inventario y funcionario. Selecciona una
+fila para abrir su ficha con los datos y la fotografía, si tiene una.
+
+Los registros se leen de `data/items.json`. Cada elemento tiene esta forma:
 
 ```json
 {
@@ -47,150 +50,116 @@ inventario-git/
   "ubicacion": "Oficina rectoría",
   "observacion": "Buen estado",
   "tipo_inventario": "Mayor",
-  "funcionario": "rector",
-  "imagen": "fotos_inventario/rector/1001.jpg"
+  "funcionario": "MILLER HUMBERTO SALAS R",
+  "imagen": "fotos_inventario/miller/1001.jpg"
 }
 ```
 
-`tipo_inventario` es uno de: `Mayor`, `Menor`, `Intangible`.
-`funcionario` corresponde a una de las subcarpetas de `fotos_inventario/`.
+`tipo_inventario` suele ser `Mayor`, `Menor` o `Intangible`. `imagen` es una
+ruta relativa a un archivo del repositorio; puede quedar vacía si el elemento
+no tiene foto.
 
-## 3. Usuarios y contraseñas de `admin.html`
+## Administración desde `admin.html`
 
-`data/credentials.json` contiene los usuarios que pueden entrar al formulario
-de edición. **Las contraseñas no se guardan en texto plano**, se guarda un
-hash (SHA-256):
+1. Inicia sesión con un usuario configurado en `data/credentials.json`.
+2. En **Configuración de conexión con GitHub**, ingresa el propietario, el
+   nombre del repositorio, la rama (normalmente `main`) y un token fine-grained.
+3. Limita el token a este repositorio y concede únicamente **Contents: Read
+   and write**.
+4. Añade, edita o elimina elementos. Si adjuntas una fotografía, se guarda
+   bajo `fotos_inventario/<funcionario>/<id>.<extensión>`.
+5. El formulario guarda los cambios en GitHub y actualiza `data/items.json`.
 
-```json
-{ "usuario": "jhon", "hash": "…", "nombre": "Jhon" }
-```
+El propietario, el repositorio y la rama pueden recordarse en el navegador.
+El token se conserva en `sessionStorage` durante la sesión y no se escribe en
+el repositorio. No uses un token con acceso más amplio del necesario.
 
-Los tres usuarios de ejemplo (`rector`, `jhon`, `yerly`) tienen todos la
-contraseña de ejemplo `cambiar123` — **cámbiala antes de usar el sitio**:
+### Aviso de seguridad
 
-1. Abre `generar-hash.html` en el navegador.
-2. Escribe la nueva contraseña; te muestra el hash correspondiente.
-3. Reemplaza ese hash en el usuario correspondiente dentro de
-   `data/credentials.json` y súbelo al repo.
+GitHub Pages es público y no proporciona un backend de autenticación. El
+contenido de `data/credentials.json`, incluidos los hashes SHA-256, puede ser
+consultado por cualquier visitante. Ese hash no debe considerarse una
+protección fuerte: puede someterse a intentos de adivinación fuera de línea.
+El formulario de login sirve para identificar al usuario de la interfaz; el
+token con permiso de escritura es lo que autoriza las modificaciones en
+GitHub. Quien tenga ese token puede escribir en el repositorio dentro de los
+permisos concedidos. Si necesitas controles de acceso por persona o proteger
+credenciales de verdad, usa un backend con autenticación; no publiques el
+token en los archivos del sitio.
 
-### ⚠️ Qué protege este login y qué no
+Para cambiar un hash, abre `generar-hash.html`, genera el SHA-256 de la nueva
+contraseña y reemplaza el valor correspondiente en `data/credentials.json`.
+Los usuarios de ejemplo y sus credenciales deben revisarse y cambiarse antes
+de distribuir el sitio.
 
-Este login es una **puerta de identificación**, no un mecanismo de seguridad
-fuerte: `data/credentials.json` es un archivo público del repositorio, así
-que alguien con conocimientos técnicos podría leerlo e intentar adivinar la
-contraseña fuera de línea a partir del hash. Lo que realmente controla quién
-puede guardar cambios en el repositorio es el **token de GitHub** que se
-configura por separado en "Configuración de conexión con GitHub" dentro de
-`admin.html` — solo alguien con ese token puede hacer commits, sin importar
-si pasó el login. Trata el login como una forma de saber "quién edita cada
-ítem", y el token como el candado real. Si necesitas seguridad más estricta
-(por ejemplo, que cada funcionario no pueda editar los ítems de otro), lo
-correcto es moverse a una solución con backend real.
+## Sincronizar el inventario desde Excel
 
-## 4. Editar desde el formulario (`admin.html`)
+El script `scripts/excel_json.py` convierte el Excel fuente en
+`data/items.json`. Requiere Python y las dependencias declaradas en
+`scripts/requeriments.txt` (`pandas` y `openpyxl`).
 
-1. Inicia sesión con tu usuario y contraseña.
-2. Despliega "Configuración de conexión con GitHub" (solo la primera vez, o
-   si no marcaste "recordar"):
-   - **Settings de tu cuenta de GitHub → Developer settings → Personal
-     access tokens → Fine-grained tokens → Generate new token**.
-   - Limita el token **solo a este repositorio**, con permiso
-     **Contents: Read and write** únicamente.
-   - Pégalo en el campo "Token de GitHub".
-3. Completa el formulario (número de inventario, descripción, ubicación,
-   observación, tipo, funcionario y, opcionalmente, una foto) y guarda.
-4. Cada guardado crea uno o dos commits: la foto (si la subiste, a
-   `fotos_inventario/<funcionario>/<numero>.<extensión>`) y el registro en
-   `data/items.json`.
-
-El token se guarda solo en el navegador (`sessionStorage`, nunca se sube al
-repo). No compartas `admin.html` con un enlace público visible si no quieres
-que cualquiera con el token de alguien más pueda editar; para uso interno
-basta con no anunciar la URL fuera del equipo.
-
-## 5. Importar desde Excel
-
-`data/items.json` ya trae los 413 ítems de `INVENTARIO_2026_MILLER.xlsx`
-convertidos a este formato. El campo `funcionario` guarda el nombre completo
-tal cual venía en el Excel (ej. "MILLER HUMBERTO SALAS R"); el formulario de
-`admin.html` sugiere automáticamente los nombres ya usados, pero acepta
-cualquier nombre nuevo en texto libre.
-
-Cuando subas una foto desde el formulario, la carpeta se calcula sola a
-partir de la **primera palabra del nombre del funcionario en minúsculas**
-(ej. "MILLER Humberto…" → `fotos_inventario/miller/`). Por eso ya existe la
-carpeta `fotos_inventario/miller/`; si aparecen otros funcionarios nuevos
-se creará su carpeta automáticamente al subir su primera foto.
-
-Todos los ítems del Excel tenían el campo `UBICACIÓN` y `OBSERVACION`
-vacíos, y la columna `IMAGEN` solo traía la ruta de la carpeta sin nombre de
-archivo (`fotos_inventario/miller`), así que `imagen` quedó vacío en todos
-— edítalos desde `admin.html` a medida que tengas esa información y las
-fotos.
-
-Si más adelante tienes otro Excel (por ejemplo de otro funcionario), lo
-puedes traer y te ayudo a fusionarlo con `data/items.json` sin perder lo que
-ya hay.
-
-## 6. Sincronización automática Excel → `items.json`
-
-`scripts/excel_to_json.py` lee el Excel y actualiza `data/items.json`,
-**sin borrar nunca las fotos** que ya hayas cargado desde `admin.html` (el
-campo `imagen` de cada ítem nunca se toca desde este script). Si un ítem ya
-no aparece en el Excel, por defecto se conserva en `items.json` (se avisa
-por consola); solo se elimina si corres el script con `--prune`.
-
-### Enlace automático de fotos
-
-Si guardas cada foto como `<número de inventario>.jpg` dentro de
-`fotos_inventario/` (por ejemplo `fotos_inventario/miller/106884.jpg`), el
-script la enlaza solo en el campo `imagen` del ítem correspondiente
-(acepta `.jpg`, `.jpeg`, `.png` y `.webp`). No sobrescribe rutas ya
-existentes, avisa de fotos cuyo número no está en el inventario y muestra
-cuántos ítems quedan sin foto. Para desactivarlo: `--no-link-images`.
-
-El workflow también se dispara cuando haces `push` de fotos nuevas en
-`fotos_inventario/`, así que basta con subir las imágenes y GitHub actualiza
-`items.json` por ti.
-
-### Uso local (en tu equipo, Windows)
+En Windows, desde la carpeta del repositorio:
 
 ```powershell
-cd C:\Users\carlos.garcia\Desktop\github\inventario_eic
-pip install -r scripts\requirements.txt
-python scripts\excel_to_json.py --excel "data\INVENTARIO 2026 MILLER.xlsx"
+python -m pip install -r scripts\requeriments.txt
+python scripts\excel_json.py
 ```
 
-Si no pasas `--excel`, el script busca solo un archivo que coincida con
-`*INVENTARIO*MILLER*.xls*` dentro de `data/`.
+Sin argumentos, el script busca en `data/` un archivo cuyo nombre coincida con
+`*INVENTARIO*MILLER*.xls*`. Para indicar otra ruta:
 
-### Automatización con GitHub Actions (`.github/workflows/sync-inventario.yml`)
+```powershell
+python scripts\excel_json.py --excel "data\INVENTARIO 2026 MILLER.xlsx"
+```
 
-Importante: **GitHub no puede "ver" cambios en tu archivo local** mientras
-lo editas en el Escritorio — solo reacciona cuando ese cambio llega al
-repositorio. El flujo real es:
+El Excel debe incluir las columnas de número de inventario, descripción del
+elemento, ubicación, observación, tipo de inventario y funcionario. El script
+normaliza los encabezados, ignora filas sin número y escribe los registros
+válidos en `data/items.json`.
 
-1. Editas el Excel localmente (en `data/INVENTARIO 2026 MILLER.xlsx` dentro
-   de tu copia del repo).
-2. Lo subes al repositorio como cualquier cambio de Git:
-   ```powershell
-   git add "data/INVENTARIO 2026 MILLER.xlsx"
-   git commit -m "Actualizar inventario de Miller"
-   git push
-   ```
-3. Ese `push` dispara automáticamente el workflow
-   `Sincronizar inventario desde Excel`: instala Python, corre
-   `scripts/excel_to_json.py`, y si `data/items.json` cambió, hace un commit
-   automático con esos cambios de vuelta al repositorio.
-4. GitHub Pages se reconstruye solo (uno o dos minutos) y el sitio queda
-   actualizado.
+### Reglas para conservar datos y fotos
 
-Puedes ver el progreso y los logs en la pestaña **Actions** del
-repositorio en GitHub. También puedes dispararlo manualmente ahí mismo con
-el botón "Run workflow" (sin necesidad de subir un Excel nuevo), gracias a
-`workflow_dispatch`.
+- Para elementos existentes, los campos del Excel actualizan los datos; si
+  una celda está vacía, se conserva el valor anterior de ese campo.
+- La foto existente de un elemento se conserva. Si `imagen` está vacía, el
+  script busca una foto con el mismo número de inventario y extensión `.jpg`,
+  `.jpeg`, `.png` o `.webp` dentro de `fotos_inventario/`.
+- Las fotos cuyo nombre no coincide con ningún número de inventario se
+  reportan como huérfanas. El script también informa cuántos elementos siguen
+  sin foto.
+- Los elementos que ya estaban en `items.json` y no aparecen en el Excel se
+  conservan por defecto. Usa `--prune` solo si quieres eliminarlos.
+- Usa `--no-link-images` para desactivar el enlace automático de fotos.
 
-No se necesita configurar ningún token nuevo para este workflow: usa el
-`GITHUB_TOKEN` que GitHub genera automáticamente para cada ejecución, con
-permiso de escritura solo sobre este repositorio (ver `permissions:
-contents: write` en el archivo del workflow).
+Ejemplo para eliminar registros que ya no estén en el Excel y no enlazar fotos:
+
+```powershell
+python scripts\excel_json.py --prune --no-link-images
+```
+
+Revisa `data/items.json` y los mensajes del script antes de publicar cambios.
+
+## Automatización con GitHub Actions
+
+El workflow `.github/workflows/sync inventario.yml` se ejecuta cuando se
+publica un cambio en `data/*.xlsx`, `data/*.xls` o `fotos_inventario/**` en la
+rama `main`. También se puede iniciar manualmente desde
+**GitHub → Actions → Sincronizar inventario desde Excel → Run workflow**.
+
+El workflow instala Python y las dependencias, ejecuta
+`python scripts/excel_json.py` y crea un commit en `data/items.json` solo si
+hubo cambios. Tiene permiso `contents: write` para hacer ese commit.
+
+Para actualizar el Excel localmente, súbelo primero al repositorio:
+
+```powershell
+git add "data/INVENTARIO 2026 MILLER.xlsx"
+git commit -m "Actualizar inventario"
+git push
+```
+
+Subir fotos a `fotos_inventario/` también dispara el workflow, que puede
+enlazarlas automáticamente en los elementos que coincidan por número. Los
+cambios hechos desde `admin.html` se guardan directamente mediante la API de
+GitHub y no dependen de ejecutar este workflow. GitHub Pages publica la
+versión actualizada después de que se suban los cambios.
