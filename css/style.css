@@ -152,14 +152,6 @@ td.id, .id-cell {
   background: repeating-linear-gradient(45deg, #f0ede3, #f0ede3 4px, #e7e2d3 4px, #e7e2d3 8px);
 }
 
-.login-wrap {
-  max-width: 340px;
-  margin: 80px auto;
-}
-.login-wrap .panel { text-align: left; }
-.login-wrap h1 { font-size: 1.4rem; margin-top: 0; }
-.field.full-width input { width: 100%; }
-
 /* Fila clicable en la tabla de inventario */
 tbody tr.clickable { cursor: pointer; }
 tbody tr.clickable:hover { background: #efece0; }
@@ -313,14 +305,34 @@ button.danger:hover { background: #8f4a20; border-color: #8f4a20; }
 .status-msg.error { background: var(--off-bg); color: var(--off-fg); }
 .status-msg.info { background: var(--rust-soft); color: var(--teal-dark); }
 
-.row-actions { display: flex; gap: 8px; }
-.row-actions button { padding: 5px 10px; font-size: 0.82rem; }
-
 details.config summary {
   cursor: pointer;
   font-size: 0.88rem;
   color: var(--ink-soft);
   padding: 6px 0;
+}
+
+.github-dialog {
+  width: min(600px, calc(100% - 32px));
+  max-height: calc(100% - 32px);
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 24px;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.github-dialog::backdrop { background: rgb(29 43 39 / 55%); }
+.github-dialog h2 { margin: 0 0 8px; font-size: 1.25rem; }
+.github-dialog p { color: var(--ink-soft); }
+.github-dialog .github-help { font-size: 0.85rem; }
+.github-dialog .remember-config {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
 }
 
 footer.note {

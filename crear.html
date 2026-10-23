@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crear registro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="site">
+    <div>
+      <h1>Crear registro</h1>
+      <p>Para actualizar o eliminar un registro, abre su ficha desde el inventario.</p>
+    </div>
+  </header>
+
+  <nav class="tools">
+    <a class="button ghost" href="index.html">← Ver inventario</a>
+  </nav>
+
+  <div id="status" class="status-msg"></div>
+
+  <div class="panel">
+    <h2 id="form-title">Nuevo elemento</h2>
+    <form id="item-form">
+      <div class="field-grid">
+        <div class="field">
+          <label for="f-id">No. de inventario</label>
+          <input type="text" id="f-id" required placeholder="1007">
+        </div>
+        <div class="field">
+          <label for="f-tipo">Tipo de inventario</label>
+          <select id="f-tipo">
+            <option>Mayor</option>
+            <option>Menor</option>
+            <option>Intangible</option>
+          </select>
+        </div>
+        <div class="field full">
+          <label for="f-descripcion">Descripción del elemento</label>
+          <input type="text" id="f-descripcion" required placeholder="Descripción del elemento">
+        </div>
+        <div class="field">
+          <label for="f-ubicacion">Ubicación</label>
+          <input type="text" id="f-ubicacion" placeholder="ej. Oficina rectoría">
+        </div>
+        <div class="field">
+          <label for="f-funcionario">Funcionario a cargo</label>
+          <input type="text" id="f-funcionario" required placeholder="Nombre del funcionario">
+        </div>
+        <div class="field full">
+          <label for="f-observacion">Observación / comentario</label>
+          <input type="text" id="f-observacion" placeholder="Opcional">
+        </div>
+        <div class="field full">
+          <label for="f-imagen">Foto del elemento</label>
+          <input type="file" id="f-imagen" accept="image/*">
+          <span id="imagen-actual" style="font-size:0.8rem;color:var(--ink-soft)"></span>
+        </div>
+      </div>
+      <div class="form-actions">
+        <button type="submit">Crear elemento</button>
+      </div>
+    </form>
+  </div>
+
+  <dialog id="github-dialog" class="github-dialog">
+    <form id="github-form">
+      <h2>Conectar con GitHub</h2>
+      <p>Se necesita una autorización de GitHub para guardar este elemento. No compartas el token.</p>
+      <div class="field-grid">
+        <div class="field">
+          <label for="cfg-owner">Usuario u organización</label>
+          <input type="text" id="cfg-owner" required value="Dimitri-1999">
+        </div>
+        <div class="field">
+          <label for="cfg-repo">Repositorio</label>
+          <input type="text" id="cfg-repo" required value="inventario_eic">
+        </div>
+        <div class="field">
+          <label for="cfg-branch">Rama</label>
+          <input type="text" id="cfg-branch" required value="main">
+        </div>
+        <div class="field full">
+          <label for="cfg-token">Token fine-grained de GitHub</label>
+          <input type="password" id="cfg-token" required autocomplete="off" placeholder="Pega aquí tu token">
+        </div>
+      </div>
+      <p class="github-help">
+        Crea un token limitado al repositorio <strong>inventario_eic</strong> y dale permiso
+        <strong>Contents: Read and write</strong>.
+        <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">Crear token en GitHub</a>.
+        El token se guarda solo en la sesión de este navegador.
+      </p>
+      <label class="remember-config">
+        <input type="checkbox" id="cfg-remember">
+        Recordar usuario, repositorio y rama en este navegador
+      </label>
+      <div class="form-actions">
+        <button type="submit">Conectar y crear elemento</button>
+        <button type="button" class="ghost" id="cancel-github">Cancelar</button>
+      </div>
+    </form>
+  </dialog>
+
+  <footer class="note">
+    El elemento creado y su foto (si adjuntas una) se guardan en el repositorio de GitHub como
+    commits. La conexión con GitHub se solicita al crear el primer elemento.
+  </footer>
+
+</div>
+
+<script src="js/inventory-api.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>

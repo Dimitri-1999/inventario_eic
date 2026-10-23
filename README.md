@@ -14,14 +14,13 @@ cambios mediante commits. No hay un servidor propio.
 inventario_eic/
 ├── index.html                         # Consulta, búsqueda y filtros
 ├── item.html                          # Detalle de un elemento
-├── admin.html                         # Inicio de sesión y administración
-├── generar-hash.html                  # Generador de hash SHA-256
+├── crear.html                         # Creación de registros
 ├── css/style.css
 ├── js/app.js                          # Lógica de la consulta
 ├── js/detail.js                       # Lógica del detalle
-├── js/admin.js                        # Administración mediante API de GitHub
+├── js/admin.js                        # Creación de registros
+├── js/inventory-api.js                # Lectura y escritura mediante API de GitHub
 ├── data/items.json                    # Inventario publicado
-├── data/credentials.json              # Usuarios y hashes del formulario
 ├── data/INVENTARIO 2026 MILLER.xlsx   # Excel fuente
 ├── scripts/excel_json.py              # Sincronización Excel → JSON
 ├── scripts/requeriments.txt           # Dependencias de Python
@@ -59,38 +58,35 @@ Los registros se leen de `data/items.json`. Cada elemento tiene esta forma:
 ruta relativa a un archivo del repositorio; puede quedar vacía si el elemento
 no tiene foto.
 
-## Administración desde `admin.html`
+## Crear desde `crear.html`
 
-1. Inicia sesión con un usuario configurado en `data/credentials.json`.
-2. En **Configuración de conexión con GitHub**, ingresa el propietario, el
-   nombre del repositorio, la rama (normalmente `main`) y un token fine-grained.
-3. Limita el token a este repositorio y concede únicamente **Contents: Read
-   and write**.
-4. Añade, edita o elimina elementos. Si adjuntas una fotografía, se guarda
-   bajo `fotos_inventario/<funcionario>/<id>.<extensión>`.
-5. El formulario guarda los cambios en GitHub y actualiza `data/items.json`.
+La página `crear.html` se usa únicamente para crear registros; no muestra la
+lista del inventario. Para actualizar o eliminar un registro, ábrelo desde la
+página principal y usa los controles de su ficha. El inventario publicado se
+puede consultar sin configurar GitHub. Para guardar cambios, ingresa el
+propietario, el nombre del repositorio, la rama (normalmente `main`) y un token
+fine-grained cuando se soliciten al pulsar **Crear elemento**. Para este
+repositorio, el propietario es `Dimitri-1999` y el repositorio es
+`inventario_eic`.
 
-El propietario, el repositorio y la rama pueden recordarse en el navegador.
-El token se conserva en `sessionStorage` durante la sesión y no se escribe en
-el repositorio. No uses un token con acceso más amplio del necesario.
+El token debe ser fine-grained, limitado a este repositorio y con permiso
+**Contents: Read and write**. La cuenta que lo crea también debe tener acceso
+de escritura al repositorio. El token se conserva en `sessionStorage` durante
+la sesión del navegador; el propietario, repositorio y rama se pueden recordar localmente.
+Al guardar, cada alta, actualización o eliminación se registra como un commit
+en `data/items.json`. Si adjuntas una fotografía, se guarda bajo
+`fotos_inventario/<funcionario>/<id>.<extensión>`.
 
 ### Aviso de seguridad
 
-GitHub Pages es público y no proporciona un backend de autenticación. El
-contenido de `data/credentials.json`, incluidos los hashes SHA-256, puede ser
-consultado por cualquier visitante. Ese hash no debe considerarse una
-protección fuerte: puede someterse a intentos de adivinación fuera de línea.
-El formulario de login sirve para identificar al usuario de la interfaz; el
-token con permiso de escritura es lo que autoriza las modificaciones en
-GitHub. Quien tenga ese token puede escribir en el repositorio dentro de los
-permisos concedidos. Si necesitas controles de acceso por persona o proteger
-credenciales de verdad, usa un backend con autenticación; no publiques el
-token en los archivos del sitio.
-
-Para cambiar un hash, abre `generar-hash.html`, genera el SHA-256 de la nueva
-contraseña y reemplaza el valor correspondiente en `data/credentials.json`.
-Los usuarios de ejemplo y sus credenciales deben revisarse y cambiarse antes
-de distribuir el sitio.
+GitHub Pages es público y no proporciona un backend de autenticación. No hay
+un login local que restrinja quién puede abrir la página de administración:
+la autorización efectiva para guardar cambios es el token de GitHub. No lo
+incluyas en los archivos del sitio ni compartas un token con más permisos de
+los necesarios. Cualquier persona que obtenga el token puede modificar el
+repositorio dentro de los permisos concedidos. Si necesitas controlar el
+acceso por persona sin entregar tokens de GitHub a los usuarios, hace falta
+un backend con autenticación.
 
 ## Sincronizar el inventario desde Excel
 
@@ -160,6 +156,6 @@ git push
 
 Subir fotos a `fotos_inventario/` también dispara el workflow, que puede
 enlazarlas automáticamente en los elementos que coincidan por número. Los
-cambios hechos desde `admin.html` se guardan directamente mediante la API de
+cambios hechos desde las páginas `crear.html` y `item.html` se guardan mediante la API de
 GitHub y no dependen de ejecutar este workflow. GitHub Pages publica la
 versión actualizada después de que se suban los cambios.

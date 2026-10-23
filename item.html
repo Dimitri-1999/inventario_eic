@@ -13,14 +13,99 @@
 
   <nav class="tools">
     <a class="button ghost" href="index.html">← Volver al inventario</a>
+    <a class="button ghost" href="crear.html">+ Crear elemento</a>
   </nav>
+
+  <div id="detail-actions" class="tools" style="display:none">
+    <button type="button" class="ghost" id="edit-item-btn">Editar elemento</button>
+    <button type="button" class="danger" id="delete-item-btn">Eliminar elemento</button>
+  </div>
+  <div id="detail-status" class="status-msg"></div>
+
+  <div class="panel">
+    <details id="github-config">
+      <summary>Conexión con GitHub (necesaria para editar o eliminar)</summary>
+      <div class="field-grid" style="margin-top:14px">
+        <div class="field">
+          <label for="cfg-owner">Usuario u organización</label>
+          <input type="text" id="cfg-owner" placeholder="ej. geomatica-lab">
+        </div>
+        <div class="field">
+          <label for="cfg-repo">Repositorio</label>
+          <input type="text" id="cfg-repo" placeholder="ej. inventario">
+        </div>
+        <div class="field">
+          <label for="cfg-branch">Rama</label>
+          <input type="text" id="cfg-branch" value="main">
+        </div>
+        <div class="field">
+          <label for="cfg-token">Token de GitHub</label>
+          <input type="password" id="cfg-token" placeholder="Token fine-grained">
+        </div>
+      </div>
+      <p style="font-size:0.82rem;color:var(--ink-soft);margin-bottom:0">
+        Usa un token fine-grained con permiso <strong>Contents: Read and write</strong>, limitado
+        a este repositorio. Se conserva en esta sesión del navegador.
+      </p>
+      <label style="font-size:0.82rem;color:var(--ink-soft);display:flex;gap:6px;align-items:center;margin-top:8px">
+        <input type="checkbox" id="cfg-remember" style="width:auto">
+        Recordar usuario/repositorio/rama en este navegador
+      </label>
+    </details>
+  </div>
 
   <div id="detail-content">
     <p style="color:var(--ink-soft)">Cargando…</p>
   </div>
 
+  <div class="panel" id="edit-panel" style="display:none">
+    <h2>Actualizar elemento</h2>
+    <form id="edit-form">
+      <div class="field-grid">
+        <div class="field">
+          <label for="f-id">No. de inventario</label>
+          <input type="text" id="f-id" required>
+        </div>
+        <div class="field">
+          <label for="f-tipo">Tipo de inventario</label>
+          <select id="f-tipo">
+            <option>Mayor</option>
+            <option>Menor</option>
+            <option>Intangible</option>
+          </select>
+        </div>
+        <div class="field full">
+          <label for="f-descripcion">Descripción del elemento</label>
+          <input type="text" id="f-descripcion" required>
+        </div>
+        <div class="field">
+          <label for="f-ubicacion">Ubicación</label>
+          <input type="text" id="f-ubicacion">
+        </div>
+        <div class="field">
+          <label for="f-funcionario">Funcionario a cargo</label>
+          <input type="text" id="f-funcionario" required>
+        </div>
+        <div class="field full">
+          <label for="f-observacion">Observación / comentario</label>
+          <input type="text" id="f-observacion">
+        </div>
+        <div class="field full">
+          <label for="f-imagen">Cambiar foto del elemento</label>
+          <input type="file" id="f-imagen" accept="image/*">
+          <span id="imagen-actual" style="font-size:0.8rem;color:var(--ink-soft)"></span>
+        </div>
+      </div>
+      <div class="form-actions">
+        <button type="submit" id="save-btn">Guardar cambios</button>
+        <button type="button" class="ghost" id="cancel-edit-btn">Cancelar</button>
+      </div>
+    </form>
+  </div>
+
 </div>
 
+<script src="js/inventory-api.js"></script>
 <script src="js/detail.js"></script>
 </body>
 </html>
