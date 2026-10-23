@@ -15,11 +15,10 @@ function tipoBadgeClass(tipo) {
 }
 
 function row(label, value) {
-  if (!value) return '';
   return `
     <div class="detail-row">
       <div class="detail-label">${label}</div>
-      <div class="detail-value">${value}</div>
+      <div class="detail-value">${value || 'Sin registrar'}</div>
     </div>`;
 }
 
