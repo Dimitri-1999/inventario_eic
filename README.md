@@ -63,16 +63,15 @@ no tiene foto.
 La página `crear.html` se usa únicamente para crear registros; no muestra la
 lista del inventario. Para actualizar o eliminar un registro, ábrelo desde la
 página principal y usa los controles de su ficha. El inventario publicado se
-puede consultar sin configurar GitHub. Para guardar cambios, ingresa el
-propietario, el nombre del repositorio, la rama (normalmente `main`) y un token
-fine-grained cuando se soliciten al pulsar **Crear elemento**. Para este
-repositorio, el propietario es `Dimitri-1999` y el repositorio es
-`inventario_eic`.
+puede consultar sin configurar GitHub. Para guardar cambios desde la ficha, se
+solicita el token fine-grained cuando se necesita. El propietario
+(`Dimitri-1999`), el repositorio (`inventario_eic`) y la rama (`main`) se
+configuran internamente y no aparecen en la interfaz.
 
 El token debe ser fine-grained, limitado a este repositorio y con permiso
 **Contents: Read and write**. La cuenta que lo crea también debe tener acceso
 de escritura al repositorio. El token se conserva en `sessionStorage` durante
-la sesión del navegador; el propietario, repositorio y rama se pueden recordar localmente.
+la sesión del navegador y no se incluye en los archivos del sitio.
 Al guardar, cada alta, actualización o eliminación se registra como un commit
 en `data/items.json`. Si adjuntas una fotografía, se guarda bajo
 `fotos_inventario/<funcionario>/<id>.<extensión>`.

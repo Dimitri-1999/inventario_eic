@@ -1,9 +1,11 @@
 let currentId = null;
 let currentItem = null;
 let pendingImageFile = null;
+let pendingAuthorizedAction = null;
 
 const el = id => document.getElementById(id);
 const statusBox = el('detail-status');
+const githubDialog = el('github-dialog');
 
 function showStatus(message, type = 'info') {
   statusBox.textContent = message;
@@ -46,42 +48,50 @@ function renderItem(item) {
   `;
 }
 
-function loadConfig() {
-  const remembered = localStorage.getItem('inv-config');
-  if (remembered) {
-    const config = JSON.parse(remembered);
-    el('cfg-owner').value = config.owner || 'Dimitri-1999';
-    el('cfg-repo').value = config.repo || 'inventario_eic';
-    el('cfg-branch').value = config.branch || 'main';
-    el('cfg-remember').checked = true;
-  } else {
-    el('cfg-owner').value = 'Dimitri-1999';
-    el('cfg-repo').value = 'inventario_eic';
-  }
-  const token = sessionStorage.getItem('inv-token');
-  if (token) el('cfg-token').value = token;
-}
-
 function getConfig() {
   return {
-    owner: el('cfg-owner').value.trim(),
-    repo: el('cfg-repo').value.trim(),
-    branch: el('cfg-branch').value.trim() || 'main',
-    token: el('cfg-token').value.trim(),
+    owner: 'Dimitri-1999',
+    repo: 'inventario_eic',
+    branch: 'main',
+    token: sessionStorage.getItem('inv-token') || '',
   };
 }
 
-function persistConfig() {
-  const config = getConfig();
-  sessionStorage.setItem('inv-token', config.token);
-  if (el('cfg-remember').checked) {
-    localStorage.setItem('inv-config', JSON.stringify({
-      owner: config.owner,
-      repo: config.repo,
-      branch: config.branch,
-    }));
-  } else {
-    localStorage.removeItem('inv-config');
+function authorizeAction(action) {
+  pendingAuthorizedAction = action;
+  el('cfg-token').value = '';
+  githubDialog.showModal();
+  el('cfg-token').focus();
+}
+
+function hasAuthorization(action) {
+  if (getConfig().token) return true;
+  authorizeAction(action);
+  return false;
+}
+
+el('github-form').addEventListener('submit', async event => {
+  event.preventDefault();
+  const token = el('cfg-token').value.trim();
+  const action = pendingAuthorizedAction;
+  if (!token || !action) return;
+
+  sessionStorage.setItem('inv-token', token);
+  pendingAuthorizedAction = null;
+  githubDialog.close();
+  await action();
+});
+
+el('cancel-github').addEventListener('click', () => {
+  pendingAuthorizedAction = null;
+  githubDialog.close();
+});
+
+function handleAuthorizationError(error, retryAction) {
+  showStatus(error.message, 'error');
+  if (error.message.includes('(401)')) {
+    sessionStorage.removeItem('inv-token');
+    authorizeAction(retryAction);
   }
 }
 
@@ -123,18 +133,16 @@ el('cancel-edit-btn').addEventListener('click', () => {
 
 el('edit-form').addEventListener('submit', async event => {
   event.preventDefault();
+  if (!hasAuthorization(saveEditedItem)) return;
+  await saveEditedItem();
+});
+
+async function saveEditedItem() {
   const config = getConfig();
   const id = el('f-id').value.trim();
   const funcionario = el('f-funcionario').value.trim();
 
-  if (!config.owner || !config.repo || !config.token) {
-    el('github-config').open = true;
-    showStatus('Completa la conexión con GitHub para guardar los cambios. Tus cambios en el formulario se conservaron.', 'error');
-    return;
-  }
-
   try {
-    persistConfig();
     showStatus(pendingImageFile ? 'Subiendo foto…' : 'Guardando cambios…');
     const result = await InventoryApi.read(config);
     const original = result.items.find(item => String(item.id) === String(currentId));
@@ -167,27 +175,20 @@ el('edit-form').addEventListener('submit', async event => {
     el('edit-panel').style.display = 'none';
     showStatus('Cambios guardados en GitHub.', 'ok');
   } catch (error) {
-    showStatus(error.message, 'error');
-    if (error.message.includes('(401)')) {
-      sessionStorage.removeItem('inv-token');
-      el('cfg-token').value = '';
-      el('github-config').open = true;
-    }
+    handleAuthorizationError(error, saveEditedItem);
   }
-});
+}
 
 el('delete-item-btn').addEventListener('click', async () => {
-  const config = getConfig();
-  if (!config.owner || !config.repo || !config.token) {
-    el('github-config').open = true;
-    showStatus('Completa la conexión con GitHub para eliminar este registro.', 'error');
-    return;
-  }
   if (!confirm(`¿Eliminar el elemento ${currentId}? La foto asociada no se borra automáticamente.`)) return;
+  if (!hasAuthorization(deleteCurrentItem)) return;
+  await deleteCurrentItem();
+});
 
+async function deleteCurrentItem() {
   try {
-    persistConfig();
     showStatus('Eliminando elemento…');
+    const config = getConfig();
     const result = await InventoryApi.read(config);
     if (!result.items.some(item => String(item.id) === String(currentId))) {
       throw new Error(`El elemento ${currentId} ya no existe en el repositorio.`);
@@ -197,12 +198,11 @@ el('delete-item-btn').addEventListener('click', async () => {
     showStatus('Elemento eliminado. Volviendo al inventario…', 'ok');
     setTimeout(() => { location.href = 'index.html'; }, 900);
   } catch (error) {
-    showStatus(error.message, 'error');
+    handleAuthorizationError(error, deleteCurrentItem);
   }
-});
+}
 
 (async () => {
-  loadConfig();
   const params = new URLSearchParams(location.search);
   currentId = params.get('id');
   const container = el('detail-content');
