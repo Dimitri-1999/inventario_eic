@@ -51,10 +51,13 @@ function loadConfig() {
   const remembered = localStorage.getItem('inv-config');
   if (remembered) {
     const config = JSON.parse(remembered);
-    el('cfg-owner').value = config.owner || '';
-    el('cfg-repo').value = config.repo || '';
+    el('cfg-owner').value = config.owner || 'Dimitri-1999';
+    el('cfg-repo').value = config.repo || 'inventario_eic';
     el('cfg-branch').value = config.branch || 'main';
     el('cfg-remember').checked = true;
+  } else {
+    el('cfg-owner').value = 'Dimitri-1999';
+    el('cfg-repo').value = 'inventario_eic';
   }
   const token = sessionStorage.getItem('inv-token');
   if (token) el('cfg-token').value = token;
@@ -88,6 +91,12 @@ function populateForm(item) {
   el('f-tipo').value = item.tipo_inventario;
   el('f-descripcion').value = item.descripcion;
   el('f-ubicacion').value = item.ubicacion || '';
+  if (![...el('f-funcionario').options].some(option => option.value === (item.funcionario || ''))) {
+    const option = document.createElement('option');
+    option.value = item.funcionario;
+    option.textContent = item.funcionario;
+    el('f-funcionario').appendChild(option);
+  }
   el('f-funcionario').value = item.funcionario || '';
   el('f-observacion').value = item.observacion || '';
   el('f-imagen').value = '';
@@ -95,28 +104,12 @@ function populateForm(item) {
   pendingImageFile = null;
 }
 
-el('edit-item-btn').addEventListener('click', async () => {
-  const config = getConfig();
-  if (!config.owner || !config.repo || !config.token) {
-    el('github-config').open = true;
-    showStatus('Completa la conexión con GitHub para actualizar este registro.', 'error');
-    return;
-  }
-
-  try {
-    persistConfig();
-    showStatus('Cargando versión actual desde GitHub…');
-    const result = await InventoryApi.read(config);
-    const latest = result.items.find(item => String(item.id) === String(currentId));
-    if (!latest) throw new Error(`El elemento ${currentId} ya no existe en el repositorio.`);
-    currentItem = latest;
-    populateForm(latest);
-    el('edit-panel').style.display = 'block';
-    el('edit-panel').scrollIntoView({ behavior: 'smooth' });
-    statusBox.className = 'status-msg';
-  } catch (error) {
-    showStatus(error.message, 'error');
-  }
+el('edit-item-btn').addEventListener('click', () => {
+  if (!currentItem) return;
+  populateForm(currentItem);
+  el('edit-panel').style.display = 'block';
+  el('edit-panel').scrollIntoView({ behavior: 'smooth' });
+  statusBox.className = 'status-msg';
 });
 
 el('f-imagen').addEventListener('change', event => {
@@ -134,6 +127,12 @@ el('edit-form').addEventListener('submit', async event => {
   const config = getConfig();
   const id = el('f-id').value.trim();
   const funcionario = el('f-funcionario').value.trim();
+
+  if (!config.owner || !config.repo || !config.token) {
+    el('github-config').open = true;
+    showStatus('Completa la conexión con GitHub para guardar los cambios. Tus cambios en el formulario se conservaron.', 'error');
+    return;
+  }
 
   try {
     persistConfig();
@@ -170,6 +169,11 @@ el('edit-form').addEventListener('submit', async event => {
     showStatus('Cambios guardados en GitHub.', 'ok');
   } catch (error) {
     showStatus(error.message, 'error');
+    if (error.message.includes('(401)')) {
+      sessionStorage.removeItem('inv-token');
+      el('cfg-token').value = '';
+      el('github-config').open = true;
+    }
   }
 });
 
