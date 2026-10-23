@@ -93,6 +93,37 @@ input[type="text"]:focus, select:focus, input[type="number"]:focus, input[type="
   border-color: var(--teal);
 }
 
+input[type="file"] {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  background: #fff;
+  color: var(--ink-soft);
+  font: 0.88rem var(--sans);
+}
+
+input[type="file"]::file-selector-button {
+  margin-right: 12px;
+  padding: 7px 12px;
+  border: 1px solid var(--teal-dark);
+  border-radius: 3px;
+  background: var(--teal-dark);
+  color: #fff;
+  font: 500 0.88rem var(--sans);
+  cursor: pointer;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background: var(--ink);
+  border-color: var(--ink);
+}
+
+input[type="file"]:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+
 .controls input[type="text"] { flex: 1; min-width: 180px; }
 
 table {
