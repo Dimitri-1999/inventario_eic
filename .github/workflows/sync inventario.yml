@@ -28,7 +28,20 @@ jobs:
           python-version: "3.12"
 
       - name: Instalar dependencias
-        run: pip install pandas openpyxl
+        run: pip install -r scripts/requeriments.txt
+
+      - name: Optimizar fotos agregadas o actualizadas
+        if: github.event_name == 'push'
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          HEAD_SHA: ${{ github.sha }}
+        run: |
+          git fetch --no-tags --depth=1 origin "$BEFORE_SHA"
+          python scripts/optimize_images.py --changed-from "$BEFORE_SHA" --changed-to "$HEAD_SHA"
+
+      - name: Optimizar todas las fotos (ejecución manual)
+        if: github.event_name == 'workflow_dispatch'
+        run: python scripts/optimize_images.py --all
 
       - name: Regenerar data/items.json a partir del Excel
         run: python scripts/excel_json.py
@@ -37,4 +50,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: sincronizar items.json desde Excel [skip ci]"
-          file_pattern: "data/items.json"
+          file_pattern: "data/items.json fotos_inventario/**"

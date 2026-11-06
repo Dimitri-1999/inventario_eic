@@ -90,8 +90,9 @@ un backend con autenticación.
 ## Sincronizar el inventario desde Excel
 
 El script `scripts/excel_json.py` convierte el Excel fuente en
-`data/items.json`. Requiere Python y las dependencias declaradas en
-`scripts/requeriments.txt` (`pandas` y `openpyxl`).
+`data/items.json`. El script `scripts/optimize_images.py` reduce el tamaño de
+las fotografías conservando sus rutas. Ambos requieren Python y las
+dependencias declaradas en `scripts/requeriments.txt`.
 
 En Windows, desde la carpeta del repositorio:
 
@@ -134,6 +135,27 @@ python scripts\excel_json.py --prune --no-link-images
 
 Revisa `data/items.json` y los mensajes del script antes de publicar cambios.
 
+### Optimizar fotografías
+
+Al subir o reemplazar fotos en `fotos_inventario/` en la rama `main`, GitHub
+Actions optimiza automáticamente solo las imágenes cambiadas antes de
+sincronizar `items.json`. Las imágenes conservan su nombre y extensión; se
+limitan a 2000 píxeles por lado y se comprimen (JPG/WebP con calidad 82, PNG
+con compresión sin pérdida). El workflow registra las fotos optimizadas junto
+con los cambios del inventario.
+
+Para optimizar fotos manualmente en Windows, instala las dependencias y pasa
+los archivos o carpetas que quieras procesar:
+
+```powershell
+python -m pip install -r scripts\requeriments.txt
+python scripts\optimize_images.py fotos_inventario\miller\192078.jpg
+```
+
+También puedes usar `--all` para revisar todas las fotos. Las imágenes ya
+optimizadas no se vuelven a comprimir si no se reduce su tamaño al menos un
+10 %, evitando pérdida de calidad en ejecuciones repetidas.
+
 ## Automatización con GitHub Actions
 
 El workflow `.github/workflows/sync inventario.yml` se ejecuta cuando se
@@ -141,9 +163,10 @@ publica un cambio en `data/*.xlsx`, `data/*.xls` o `fotos_inventario/**` en la
 rama `main`. También se puede iniciar manualmente desde
 **GitHub → Actions → Sincronizar inventario desde Excel → Run workflow**.
 
-El workflow instala Python y las dependencias, ejecuta
-`python scripts/excel_json.py` y crea un commit en `data/items.json` solo si
-hubo cambios. Tiene permiso `contents: write` para hacer ese commit.
+El workflow instala Python y las dependencias, optimiza las fotos nuevas o
+actualizadas, ejecuta `python scripts/excel_json.py` y crea un commit con los
+cambios en fotos e inventario solo si los hubo. Tiene permiso `contents: write`
+para hacer ese commit.
 
 Para actualizar el Excel localmente, súbelo primero al repositorio:
 
