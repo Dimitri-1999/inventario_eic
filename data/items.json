@@ -20,7 +20,7 @@
   {
     "id": "287286",
     "descripcion": "DIADEMA INALAMBRICA CON MICROFONO UNIDIRECCIONAL, IMPEDANCIA DE ENTRADA 32 OHMIOS, SENSIBILIDAD AUDIFONO 102 DB, SENSIBILIDAD MICROFONO -44 DBV/PA, RESPUESTA DE FRECUENCIA AUDIFON",
-    "ubicacion": "",
+    "ubicacion": "OFICINA GRUPO INME",
     "observacion": "",
     "tipo_inventario": "Menor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -29,7 +29,7 @@
   {
     "id": "287287",
     "descripcion": "DIADEMA INALAMBRICA CON MICROFONO UNIDIRECCIONAL, IMPEDANCIA DE ENTRADA 32 OHMIOS, SENSIBILIDAD AUDIFONO 102 DB, SENSIBILIDAD MICROFONO -44 DBV/PA, RESPUESTA DE FRECUENCIA AUDIFON",
-    "ubicacion": "",
+    "ubicacion": "OFICINA GRUPO INME",
     "observacion": "",
     "tipo_inventario": "Menor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -281,8 +281,8 @@
   {
     "id": "15120",
     "descripcion": "MESA HEXAGONAL PARA JUNTAS CON VIDRIO DE 10 MM CON LOGO DE LA UIS",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "SECRETARIA ING CIVIL",
+    "observacion": "ELEMENTO UBICADO EN LA OFICINA DEL DIRECTOR DE ESCUELA ING CIVIL",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -290,8 +290,8 @@
   {
     "id": "29484",
     "descripcion": "MESA TRAPEZOIDAL EN MONCORO PINTURA AL NATURAL PLANTILLA EN FORMICA GABINETE P/LIBROS",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA DE SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -299,8 +299,8 @@
   {
     "id": "31756",
     "descripcion": "MESA TRAPEZOIDAL DE 80X60X70 EN MADERA MONCORO PINTURA NATURAL",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "LABORATORIO DE ESTRUCTURAS Y MATERIALES",
+    "observacion": "AULA COMPUTO",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -308,7 +308,7 @@
   {
     "id": "31763",
     "descripcion": "MESA TRAPEZOIDAL DE 80X60X70 EN MADERA MONCORO PINTURA NATURAL",
-    "ubicacion": "",
+    "ubicacion": "LABORATORIO DE ESTRUCTURAS Y MATERIALES",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -317,8 +317,8 @@
   {
     "id": "31823",
     "descripcion": "MESA TRAPEZOIDAL DE 80X60X70  EN MADERA DE MONCORO PLANTILLA EN FORMICA",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "LABORATORIO DE ESTRUCTURAS Y MATERIALES",
+    "observacion": "AULA COMPUTO",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -326,8 +326,8 @@
   {
     "id": "32170",
     "descripcion": "MESA TRAPEZOIDAL DE 80X60X70 EN MADERA",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "GEOMATICA",
+    "observacion": "UBICACIÓN RACK DE REDES",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -335,8 +335,8 @@
   {
     "id": "32189",
     "descripcion": "MESA TRAPEZOIDAL DE 80X60X70 EN MADERA",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA DE SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -344,8 +344,8 @@
   {
     "id": "32195",
     "descripcion": "MESA TRAPEZOIDAL DE 80X60X70 EN MADERA",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "LABORATORIO DE ESTRUCTURAS Y MATERIALES",
+    "observacion": "CUARTO DE ASEO",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -353,8 +353,8 @@
   {
     "id": "36082",
     "descripcion": "BIBLIOTECA EN MADERA CEDRO DE 2,10 X 3,08 X 45 CMS. 2 PUERTAS",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "SECRETARIA ING CIVIL",
+    "observacion": "ELEMENTO UBICADO EN LA OFICINA DEL DIRECTOR DE ESCUELA ING CIVIL",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -362,8 +362,8 @@
   {
     "id": "56353",
     "descripcion": "AMPLIFICADOR DE SONIDO DTS PANASONIC",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA DE SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -371,7 +371,7 @@
   {
     "id": "88850",
     "descripcion": "MOTOREDUCTOR 30 RPM",
-    "ubicacion": "",
+    "ubicacion": "LABORATORIO DE ESTRUCTURAS Y MATERIALES",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -380,8 +380,8 @@
   {
     "id": "91710",
     "descripcion": "TELEFONO IP 1608, INCLUYE PATCH CORD Y LICENCIA CM:AURA STD ED R5 1-100 ADD LIC.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "SECRETARIA ING CIVIL",
+    "observacion": "ELEMENTO UBICADO EN LA DIRECCION DE ESCUELA DE ING CIVIL",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -389,8 +389,8 @@
   {
     "id": "94411",
     "descripcion": "SILLA PLASTICA SELECTA CON ESPALDAR Y ASIENTO EN POLIPROPILENO Y ACABADO PINTURA ELECTROSTATICA.(ING.CIVIL AULA 009)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/94411.jpg"
@@ -398,8 +398,8 @@
   {
     "id": "94419",
     "descripcion": "SILLA PLASTICA SELECTA CON ESPALDAR Y ASIENTO EN POLIPROPILENO Y ACABADO PINTURA ELECTROSTATICA.(ING.CIVIL AULA 009)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/94419.jpg"
@@ -407,7 +407,7 @@
   {
     "id": "99792",
     "descripcion": "TELEFONO IP REF.9620                               08N515404693",
-    "ubicacion": "",
+    "ubicacion": "SECRETARIA ING CIVIL",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -416,7 +416,7 @@
   {
     "id": "99823",
     "descripcion": "TELEFONO IP REF 4621                               081619605387",
-    "ubicacion": "",
+    "ubicacion": "SECRETARIA ING CIVIL",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -425,8 +425,8 @@
   {
     "id": "103009",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -434,8 +434,8 @@
   {
     "id": "103010",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -443,8 +443,8 @@
   {
     "id": "103014",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -452,8 +452,8 @@
   {
     "id": "103015",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -461,8 +461,8 @@
   {
     "id": "103016",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -470,8 +470,8 @@
   {
     "id": "103019",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -479,8 +479,8 @@
   {
     "id": "103020",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -488,8 +488,8 @@
   {
     "id": "103021",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -497,8 +497,8 @@
   {
     "id": "103022",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -506,8 +506,8 @@
   {
     "id": "103023",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -515,8 +515,8 @@
   {
     "id": "103025",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -524,8 +524,8 @@
   {
     "id": "103027",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -533,8 +533,8 @@
   {
     "id": "103029",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -542,8 +542,8 @@
   {
     "id": "103032",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -551,8 +551,8 @@
   {
     "id": "103034",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -560,8 +560,8 @@
   {
     "id": "103035",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -569,8 +569,8 @@
   {
     "id": "103036",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -578,8 +578,8 @@
   {
     "id": "103037",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -587,8 +587,8 @@
   {
     "id": "103040",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -596,8 +596,8 @@
   {
     "id": "103041",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -605,8 +605,8 @@
   {
     "id": "103042",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -614,8 +614,8 @@
   {
     "id": "103046",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -623,8 +623,8 @@
   {
     "id": "103047",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION (AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -632,8 +632,8 @@
   {
     "id": "103048",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -641,8 +641,8 @@
   {
     "id": "103052",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -650,8 +650,8 @@
   {
     "id": "103053",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -659,8 +659,8 @@
   {
     "id": "103054",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -668,8 +668,8 @@
   {
     "id": "103055",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -677,8 +677,8 @@
   {
     "id": "103056",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION.(AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -686,8 +686,8 @@
   {
     "id": "103057",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PRANNA AZUL REF. S28.  GARANTIA DE DOS AÑOS POR DEFECTOS DE FABRICACION (AULA-005)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -695,8 +695,8 @@
   {
     "id": "106884",
     "descripcion": "AIRE ACONDICIONADO TIPO PISO TECHO DE 36.000 BTU 220V 1PH 60HZ REFRIGERANTE ECOLOGICO 410 A, INCLUYE ACCESORIOS MONTAJE E INSTALACION.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/106884.jpg"
@@ -705,7 +705,7 @@
     "id": "108020",
     "descripcion": "TELEFONO IP 9620  08N515405420",
     "ubicacion": "",
-    "observacion": "",
+    "observacion": "UBICADO EN LA OFICINA DEL PROFESOR MILLER SALAS",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -713,8 +713,8 @@
   {
     "id": "108940",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -722,8 +722,8 @@
   {
     "id": "108941",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -731,8 +731,8 @@
   {
     "id": "108942",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -740,8 +740,8 @@
   {
     "id": "108943",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -749,8 +749,8 @@
   {
     "id": "108944",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -758,8 +758,8 @@
   {
     "id": "108945",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -767,8 +767,8 @@
   {
     "id": "108946",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -776,8 +776,8 @@
   {
     "id": "108947",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -785,8 +785,8 @@
   {
     "id": "108948",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -794,8 +794,8 @@
   {
     "id": "108949",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -803,8 +803,8 @@
   {
     "id": "108950",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -812,8 +812,8 @@
   {
     "id": "108951",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -821,8 +821,8 @@
   {
     "id": "108952",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -830,8 +830,8 @@
   {
     "id": "108953",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -839,8 +839,8 @@
   {
     "id": "108954",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -848,8 +848,8 @@
   {
     "id": "108955",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -857,8 +857,8 @@
   {
     "id": "108956",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -866,8 +866,8 @@
   {
     "id": "108957",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -875,8 +875,8 @@
   {
     "id": "108958",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -884,8 +884,8 @@
   {
     "id": "108959",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -893,8 +893,8 @@
   {
     "id": "108960",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA ROJO CEREZA REF: S28 CON ESTRUCTURA   METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -902,8 +902,8 @@
   {
     "id": "108961",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -911,8 +911,8 @@
   {
     "id": "108962",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -920,8 +920,8 @@
   {
     "id": "108963",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -929,8 +929,8 @@
   {
     "id": "108964",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -938,8 +938,8 @@
   {
     "id": "108965",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -947,8 +947,8 @@
   {
     "id": "108966",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -956,8 +956,8 @@
   {
     "id": "108967",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -965,8 +965,8 @@
   {
     "id": "108968",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -974,8 +974,8 @@
   {
     "id": "108969",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -983,8 +983,8 @@
   {
     "id": "108970",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -992,8 +992,8 @@
   {
     "id": "108971",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1001,8 +1001,8 @@
   {
     "id": "108972",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1010,8 +1010,8 @@
   {
     "id": "108973",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1019,8 +1019,8 @@
   {
     "id": "108974",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1028,8 +1028,8 @@
   {
     "id": "108975",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1037,8 +1037,8 @@
   {
     "id": "108976",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1046,8 +1046,8 @@
   {
     "id": "108977",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1055,8 +1055,8 @@
   {
     "id": "108978",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1064,8 +1064,8 @@
   {
     "id": "108979",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1073,8 +1073,8 @@
   {
     "id": "108980",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1082,8 +1082,8 @@
   {
     "id": "108981",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1091,8 +1091,8 @@
   {
     "id": "108983",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1100,8 +1100,8 @@
   {
     "id": "108984",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1109,8 +1109,8 @@
   {
     "id": "108985",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1118,8 +1118,8 @@
   {
     "id": "108986",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1127,8 +1127,8 @@
   {
     "id": "108987",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1136,8 +1136,8 @@
   {
     "id": "108988",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1145,8 +1145,8 @@
   {
     "id": "108989",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1154,8 +1154,8 @@
   {
     "id": "108990",
     "descripcion": "SILLA ISOSCELES TAPIZADA EN PANA   ROJO CEREZA REF: S28 CON ESTRUCTURA METáLICA PARA EL SALON 03 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1163,7 +1163,7 @@
   {
     "id": "109432",
     "descripcion": "TELEVISOR LG DE 50\" MODELO 50PA4500",
-    "ubicacion": "",
+    "ubicacion": "SE ENCUENTRA UBICADO EN VICERECTORIA ADMINISTRATIVA",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -1172,7 +1172,7 @@
   {
     "id": "109608",
     "descripcion": "COMPUTADOR DELL OPTIPLEX 9010 MINITORRE, INTEL CORE I7 3770 3ERA GENERACION, 8MB,8GB DDR3, DISCO DURO 1TB, MONITOR 22\"LCD, TECLADO Y MOUSE. (LENGUAS BARRANCA)",
-    "ubicacion": "",
+    "ubicacion": "DIC 9 /19 ESTE ELEMENTO ESTA UBICADO EN EL CENTRO DE ESTUDIOS DE ING. CIVIL",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -1181,7 +1181,7 @@
   {
     "id": "113974",
     "descripcion": "COMPUTADOR DELL OPTIPLEX 9020 CHASIS MINITORRE, COTIZACION NO. 1015014899758, 57196161, INTEL CORE I7 4770 PROCESSOR (QUAD CORE HT, 3.4 GHZ TURBO, 8MB, MEMORIA RAM 8 GB (2X4GB), 1600 MHZ DDR3 MEMORY, DISCO DURO 1 TB, INCH SATA (7.200 RPM) HARD DRIVE, MONITOR 22",
-    "ubicacion": "",
+    "ubicacion": "DIC 9 /19 ESTE ELEMENTO ESTA UBICADO EN EL CENTRO DE ESTUDIOS DE ING. CIVIL",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -1190,7 +1190,7 @@
   {
     "id": "115465",
     "descripcion": "VIDEO BEAM EPSON POWERLINE W18+, RESOLUCIóN WXGA 1280*800, 3000 LUMENS, PUERTO USB, BGA Y HDMI.",
-    "ubicacion": "",
+    "ubicacion": "SE ENCUENTRA UBICADO EN EL AULA LH1",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -1199,8 +1199,8 @@
   {
     "id": "115466",
     "descripcion": "VIDEO BEAM EPSON POWERLINE W18+, RESOLUCIóN WXGA 1280*800, 3000 LUMENS, PUERTO USB, BGA Y HDMI.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/115466.jpg"
@@ -1208,8 +1208,8 @@
   {
     "id": "116698",
     "descripcion": "COMPUTADOR DE ESCRITORIO DELL OPTIPLEX 9020 INTEL CORE I7 4770, RAM DE 8 GB, DISCO DURO DE 1 TB, MONITOR DE 22 PULGADAS.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1217,7 +1217,7 @@
   {
     "id": "116939",
     "descripcion": "COMPUTADOR WORKSTATION DELL PRECISION T3610, INTEL XEON, MEMORIA RAM DE 8 GB, D.D. DE 1 TB, MONITOR DE 24\"  TIPO W1                                  (HEBENLY CELIS LEGUIZAMO) ING. CIVIL",
-    "ubicacion": "",
+    "ubicacion": "SECRETARIA ING CIVIL",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -1226,7 +1226,7 @@
   {
     "id": "118335",
     "descripcion": "TELEFONO 1608-I IP DESKPHONE ICON ONLY",
-    "ubicacion": "",
+    "ubicacion": "DIC 9/19 ESTE ELEMENTO ESTA UBICADO EN EL CENTRO DE ESTUDIOS DE ING. CIVIL.",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -1235,8 +1235,8 @@
   {
     "id": "119680",
     "descripcion": "VIDEO BEAM TIPO 1: MINIMO 3000 LUMENES",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1244,8 +1244,8 @@
   {
     "id": "123487",
     "descripcion": "AIRE ACONDICIONADO MINI SPLIT DE 24000 BTU/H TIPO INVERTER, REFRIGERANTE ECOLOGICO R410A, 220 V 1PH INSTALADO EN EL SALON 003 DE LA MAESTRIA EN INGENIERIA ESTRUCTURAL DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1253,8 +1253,8 @@
   {
     "id": "124101",
     "descripcion": "TELON DE PARED ELECTRICO DE 180 X 180 CMS, CON CONTROL REMOTO INALAMBRICO PARA LOS POSGRADOS DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1262,7 +1262,7 @@
   {
     "id": "125509",
     "descripcion": "BIBLIOTECA TRES CAJONES DOS PUERTAS BASE SUPERIOR MOVIL",
-    "ubicacion": "",
+    "ubicacion": "ELEMENTO UBICADO EN LA OFICINA DEL DIRECTOR DE ESCUELA ING CIVIL",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -1271,7 +1271,7 @@
   {
     "id": "125516",
     "descripcion": "BIBLIOTECA BAJA TIPO B-1",
-    "ubicacion": "",
+    "ubicacion": "ELEMENTO UBICADO EN LA OFICINA DEL DIRECTOR DE ESCUELA ING CIVIL",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -1280,7 +1280,7 @@
   {
     "id": "127700",
     "descripcion": "SILLA S3-A TIPO ISONET (ING.CIVIL 123)",
-    "ubicacion": "",
+    "ubicacion": "ELEMENTO UBICADO EN LA SEDE BUCARICA - ACTUALMENTE EN LA  OFICINA DE CONSULTORIO JURIDICO (ZONA DE ATENCION) SEGUN LEVANTAMIENTO DE ACTIVOS REALIZADO EL 27/05/2025",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -1289,8 +1289,8 @@
   {
     "id": "127701",
     "descripcion": "SILLA S3-A TIPO ISONET (ING.CIVIL 123)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "LABORATORIOS LIVIANOS",
+    "observacion": "COLECCION HERPETOLOGIA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1298,8 +1298,8 @@
   {
     "id": "127896",
     "descripcion": "TELON DE PARED DE PROYECCCION ELECTRICO 180 X 180 CMS, CON CONTROL REMOTO.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/127896.jpg"
@@ -1316,8 +1316,8 @@
   {
     "id": "128918",
     "descripcion": "COMPUTADOR PORTATIL CON PROCESADOR DE QUINTA GENERACION.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "OFICINA PROFESOR",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1325,7 +1325,7 @@
   {
     "id": "131294",
     "descripcion": "COMPUTADOR DELL DE ESCRITORIO, VOSTRO DESKTOP 3250, MONITOR DE 21,5\", PROCESADOR INTEL CORE I5-6400 6GTH, RAM 4GB, PUERTOS HDMI, VGA, BLUETOOTH Y GARANTIA DE UN ANO.",
-    "ubicacion": "",
+    "ubicacion": "SE ENCUENTRA UBICADO EN LA SECRETARIA DE INGENIERÍA CIVIL",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -1334,8 +1334,8 @@
   {
     "id": "132025",
     "descripcion": "VENTILADOR DE PARED 18\" MARCA SHIMASU, MAX FLOW, CON CONTROL REMOTO 3 VELOCIDADES, FUNCIONAMIENTO SILENCIOSO, MALLA DE PROTECCION PLASTICA DE ALTA RESISTENCIA, CONTROL DE OSCILACION AUTOMATICO COLOR BLANCO.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "DANIEL CASAS",
+    "observacion": "SALA REUNIONES",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1343,8 +1343,8 @@
   {
     "id": "132037",
     "descripcion": "VENTILADOR DE PARED 18\" MARCA SHIMASU, MAX FLOW, SIN CONTROL REMOTO, 3 VELOCIDADES, FUNCIONAMIENTO SILENCIOSO, MALLA DE PROTECCIóN PLáSTICA DE ALTA RESISTENCIA, CONTROL DE OSCILACIóN AU",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "DANIEL CASAS",
+    "observacion": "RECEPCION ALMACEN",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1352,7 +1352,7 @@
   {
     "id": "132039",
     "descripcion": "VENTILADOR DE PARED 18\" MARCA SHIMASU, MAX FLOW, SIN CONTROL REMOTO, 3 VELOCIDADES, FUNCIONAMIENTO SILENCIOSO, MALLA DE PROTECCIóN PLáSTICA DE ALTA RESISTENCIA, COLOR BLANCO CADES.",
-    "ubicacion": "",
+    "ubicacion": "DANIEL CASAS",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -1361,8 +1361,8 @@
   {
     "id": "132049",
     "descripcion": "VENTILADOR DE PARED 18\" MARCA SHIMASU, MAX FLOW, SIN CONTROL REMOTO, 3 VELOCIDADES, FUNCIONAMIENTO SILENCIOSO, MALLA DE PROTECCIóN PLáSTICA DE ALTA RESISTENCIA, COLOR BLANCO CADES.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "DANIEL CASAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1370,8 +1370,8 @@
   {
     "id": "132673",
     "descripcion": "VIDEO BEAM DE 3600 LUMENS.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "LABORATORIO DE ESTRUCTURAS Y MATERIALES",
+    "observacion": "TERRAZA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1379,8 +1379,8 @@
   {
     "id": "145981",
     "descripcion": "AIRE ACONDICIONADO TIPO MINISPLIT CON CAPACIDAD DE 36.000 BTU/H MARCA CIAC CARRIER, 220 V/1PH/60HZ, REFRIGERANTE ECOLOGICO R410 A, TUBERIA DE COBRE DE 3/8\" X 7/8 AISLADA EN R",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1388,8 +1388,8 @@
   {
     "id": "148772",
     "descripcion": "TELON ELECTRICO DE PROYECCION DE 2MTS X 2MTS CON CONTROL REMOTO INALAMBRICO PARA LOS SALONES DE POSGRADO 007 Y 004 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/148772.jpg"
@@ -1397,8 +1397,8 @@
   {
     "id": "150566",
     "descripcion": "TELON DE PROYECCION ELECTRICO DE 240 CMS X 240 CMS  CON MOTOR TUBULAR ELECTRICO, CONTROL REMOTO RF Y SWITCHE DE PARED PARA LOS SALONES DE POSGRADO 247 Y 039 DE LA ESCUELA DE INGENIERIA CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1406,8 +1406,8 @@
   {
     "id": "150580",
     "descripcion": "AIRE ACONDICIONADO  TIPO MINISPLIT DE 18.000 BTU PARA EL SALON 247 DEL EDIFICIO LABORATORIO DE PESADOS DE LA ESCUELA DE ING. CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/150580.jpg"
@@ -1415,8 +1415,8 @@
   {
     "id": "150581",
     "descripcion": "AIRE ACONDICIONADO TIPO MINISPLIT DE 18.000 BTU PARA EL SALON 247 DEL EDIFICIO LABORATORIO DE PESADOS DE LA ESCUELA DE ING. CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/150581.jpg"
@@ -1424,8 +1424,8 @@
   {
     "id": "150582",
     "descripcion": "AIRE ACONDICIONADO TIPO MINISPLIT DE 18.000 BTU PARA EL SALON 208 DEL EDIFICIO LABORATORIO DE PESADOS DE LA ESCUELA DE ING. CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/150582.jpg"
@@ -1433,8 +1433,8 @@
   {
     "id": "150583",
     "descripcion": "AIRE ACONDICIONADO TIPO MINISPLIT DE 18.000 BTU PARA EL SALON 208 DEL EDIFICIO LABORATORIO DE PESADOS DE LA ESCUELA DE ING. CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/150583.jpg"
@@ -1442,8 +1442,8 @@
   {
     "id": "150584",
     "descripcion": "AIRE ACONDICIONADO TIPO MINISPLIT DE 18.000 BTU PARA EL SALON 039 DEL EDIFICIO LABORATORIO DE PESADOS DE LA ESCUELA DE ING. CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/150584.jpg"
@@ -1451,8 +1451,8 @@
   {
     "id": "150585",
     "descripcion": "AIRE ACONDICIONADO  TIPO MINISPLIT DE 18.000 BTU PARA EL SALON 039 DEL EDIFICIO LABORATORIO DE PESADOS DE LA ESCUELA DE ING. CIVIL.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/150585.jpg"
@@ -1460,8 +1460,8 @@
   {
     "id": "150672",
     "descripcion": "TELON DE PARED PARA PROYECCION DE 2.80 X 2.40 PARA EL SALON 247 EDIF. PESADO",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1469,8 +1469,8 @@
   {
     "id": "151854",
     "descripcion": "COMPUTADOR DE ESCRITORIO MARCA HP PROODESK G4 SFF, PROCESADOR CORE I7 8700 3.2 GHZ DE OCTVAVA GENERACION, MEMORIA RAM DE 8 GB DDR4, DISCO DURO 1 (UNO) DE 256 GB SSD (PRINCIPAL) 1 (UNO)  1TB A 7200 RPM (ESCLAVO), TARJETA DE VIDEO AMD RADEON R7 430 DE 2 GB GDDR5, MONITOR D",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1478,7 +1478,7 @@
   {
     "id": "152030",
     "descripcion": "COMPUTADOR DE ESCRITORIO MARCA HP PROODESK G4 SFF, PROCESADOR CORE I7 8700 3.2 GHZ DE OCTVAVA GENERACION, MEMORIA RAM DE 8 GB DDR4, DISCO DURO 1 (UNO) DE 256 GB SSD (PRINCIPAL) 1 (UNO)  1TB A 7200 RPM (ESCLAVO), TARJETA DE VIDEO AMD RADEON R7 430 DE 2 GB GDDR5, MONITOR D",
-    "ubicacion": "",
+    "ubicacion": "SECRETARIA ING CIVIL",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -1487,8 +1487,8 @@
   {
     "id": "153105",
     "descripcion": "PROYECTOR CON MODULO INALAMBRICO, LUMINOSIDAD 3600 LUMENS, RESOLUCION WXGA, PUERTO USB, HDMI Y VGA, LAMPARA 210W-6.000 HORAS EN MODO NORMAL Y 10.000 ECONOMICO, RANGO DE CONTRASTE 15.000:1, TAMAÑO DE PROTECCION 30. A 3 10.,CONEXION DE DATOS, PUNTO ELECTRICO, GARANTIA DE DOS",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/153105.jpg"
@@ -1496,8 +1496,8 @@
   {
     "id": "154283",
     "descripcion": "ACCESS POINT (LABORATORIO DE PESADOS)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/154283.jpg"
@@ -1505,8 +1505,8 @@
   {
     "id": "154284",
     "descripcion": "ACCESS POINT (LABORATORIO DE PESADOS)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/154284.jpg"
@@ -1514,8 +1514,8 @@
   {
     "id": "154285",
     "descripcion": "ACCESS POINT (LABORATORIO DE PESADOS)",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/154285.jpg"
@@ -1523,8 +1523,8 @@
   {
     "id": "154688",
     "descripcion": "PROYECTOR INALAMBRICO, CON LUMINOSIDAD DE 3600 ANSI LUMENS, RESOLUCION 1920  X 1200, LAMPARA 210W-MINIMO 6000 HORAS EN MODO NORMAL Y 10000 EN MODO ECONOMICO, RELACION DE ASPECTO 16:10, RANGO DE CONTRASTE 15.000:1, ZOO M Y ENFOQUE MANUAL, TAMAÑO  DE PRO",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/154688.jpg"
@@ -1532,7 +1532,7 @@
   {
     "id": "155175",
     "descripcion": "TABLET SAMSUNG GALAXY TAB A 8.0 WIFI - 16GB",
-    "ubicacion": "",
+    "ubicacion": "ASIGNADA AL PROFESOR MILLER SALAS DE LA ESCUELA DE ING. CIVIL, OFICINA DOCENTE.",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -1541,7 +1541,7 @@
   {
     "id": "160539",
     "descripcion": "PORTATIL VOSTRO 3490, INTEL CORE I5 10210U CML-U 4 CORES 4.20 MJZ 6.00 MB TPM /INTEL UHD GRAPHICS 620, RAM 8GB DDR4 2666MHZ, DISCO DURO 1 TB 5400 RPM, WINDOWS 10 PROFESIONAL 64 BITS, PANTALLA 14\" HD 1366X768 ANTIREFLEJO, WIRELESS CARD, BLUETOOTH 4.1-2.4 GHZ, BATERIA 3 CELD",
-    "ubicacion": "",
+    "ubicacion": "SECRETARIA ING CIVIL",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -1550,8 +1550,8 @@
   {
     "id": "163210",
     "descripcion": "MONITOR INDUSTRIAL MARGA LG DE 75\" 75UL35G",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/163210.jpg"
@@ -1559,8 +1559,8 @@
   {
     "id": "163423",
     "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 65\" 65UH7F",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/163423.jpg"
@@ -1568,8 +1568,8 @@
   {
     "id": "163444",
     "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 65\" 65UH7F",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/163444.jpg"
@@ -1577,8 +1577,8 @@
   {
     "id": "163447",
     "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 65\" 65UH7F",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/163447.jpg"
@@ -1586,8 +1586,8 @@
   {
     "id": "163448",
     "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 65\" 65UH7F",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/163448.jpg"
@@ -1595,8 +1595,8 @@
   {
     "id": "163449",
     "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 65\" 65UH7F",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/163449.jpg"
@@ -1604,8 +1604,8 @@
   {
     "id": "163520",
     "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 55\" 55UH7F.",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/163520.jpg"
@@ -1613,8 +1613,8 @@
   {
     "id": "163834",
     "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 55\" 55UH7F",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/163834.jpg"
@@ -1622,8 +1622,8 @@
   {
     "id": "163837",
     "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 55\" 55UH7F",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/163837.jpg"
@@ -1631,8 +1631,8 @@
   {
     "id": "163838",
     "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 55\" 55UH7F",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/163838.jpg"
@@ -1649,8 +1649,8 @@
   {
     "id": "164237",
     "descripcion": "ATRIL PARA AULAS HIBRIDAS",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/164237.jpg"
@@ -1658,8 +1658,8 @@
   {
     "id": "164240",
     "descripcion": "ATRIL PARA AULAS HIBRIDAS",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/164240.jpg"
@@ -1667,8 +1667,8 @@
   {
     "id": "164241",
     "descripcion": "ATRIL PARA AULAS HIBRIDAS",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/164241.jpg"
@@ -1676,8 +1676,8 @@
   {
     "id": "164242",
     "descripcion": "ATRIL PARA AULAS HIBRIDAS",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/164242.jpg"
@@ -1685,8 +1685,8 @@
   {
     "id": "164243",
     "descripcion": "ATRIL PARA AULAS HIBRIDAS",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/164243.jpg"
@@ -1694,8 +1694,8 @@
   {
     "id": "164273",
     "descripcion": "ATRIL PARA AULAS HIBRIDAS",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/164273.jpg"
@@ -1703,8 +1703,8 @@
   {
     "id": "164274",
     "descripcion": "ATRIL PARA AULAS HIBRIDAS",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA 003",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": ""
@@ -1712,8 +1712,8 @@
   {
     "id": "164276",
     "descripcion": "ATRIL PARA AULAS HIBRIDAS",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/164276.jpg"
@@ -1722,7 +1722,7 @@
     "id": "164917",
     "descripcion": "MONITOR IT MARCA LG DE 22\" 22MK400H",
     "ubicacion": "",
-    "observacion": "",
+    "observacion": "AULA 101 ABP",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/164917.jpg"
@@ -1730,8 +1730,8 @@
   {
     "id": "164931",
     "descripcion": "MONITOR IT MARCA LG DE 22\" 22MK400H",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/164931.jpg"
@@ -1739,8 +1739,8 @@
   {
     "id": "164937",
     "descripcion": "MONITOR IT MARCA LG DE 22\" 22MK400H",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/164937.jpg"
@@ -1748,8 +1748,8 @@
   {
     "id": "164943",
     "descripcion": "MONITOR IT MARCA LG DE 22\" 22MK400H",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/164943.jpg"
@@ -1757,8 +1757,8 @@
   {
     "id": "164946",
     "descripcion": "MONITOR IT MARCA LG DE 22\" 22MK400H",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "LABORATORIO DE ESTRUCTURAS Y MATERIALES",
+    "observacion": "AULA COMPUTO 107",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/164946.jpg"
@@ -1766,8 +1766,8 @@
   {
     "id": "164947",
     "descripcion": "MONITOR IT MARCA LG DE 22\" 22MK400H",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/164947.jpg"
@@ -1775,8 +1775,8 @@
   {
     "id": "164948",
     "descripcion": "MONITOR IT MARCA LG DE 22\" 22MK400H",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "LABORATORIO DE ESTRUCTURAS Y MATERIALES",
+    "observacion": "AULA COMPUTO 106 ABP",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/164948.jpg"
@@ -1784,8 +1784,8 @@
   {
     "id": "164977",
     "descripcion": "MONITOR IT MARCA LG DE 22\" 22MK400H",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/164977.jpg"
@@ -1793,8 +1793,8 @@
   {
     "id": "164978",
     "descripcion": "MONITOR IT MARCA LG DE 22\" 22MK400H",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "INGENIERIA SISTEMAS",
+    "observacion": "AULA 003",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/164978.jpg"
@@ -1802,8 +1802,8 @@
   {
     "id": "164980",
     "descripcion": "MONITOR IT MARCA LG DE 22\" 22MK400H",
-    "ubicacion": "",
-    "observacion": "",
+    "ubicacion": "LABORATORIO DE ESTRUCTURAS Y MATERIALES",
+    "observacion": "AULA 204 EDIFICIO ABP",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
     "imagen": "fotos_inventario/miller/164980.jpg"
