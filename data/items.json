@@ -1208,7 +1208,7 @@
   {
     "id": "116698",
     "descripcion": "COMPUTADOR DE ESCRITORIO DELL OPTIPLEX 9020 INTEL CORE I7 4770, RAM DE 8 GB, DISCO DURO DE 1 TB, MONITOR DE 22 PULGADAS.",
-    "ubicacion": "ABP 207",
+    "ubicacion": "ABP 203",
     "observacion": "AULA DE CLASE",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -1577,7 +1577,7 @@
   {
     "id": "163447",
     "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 65\" 65UH7F",
-    "ubicacion": "ABP 207",
+    "ubicacion": "ABP 203",
     "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -1595,7 +1595,7 @@
   {
     "id": "163449",
     "descripcion": "MONITOR INDUSTRIAL MARCA LG DE 65\" 65UH7F",
-    "ubicacion": "INGENIERIA SISTEMAS",
+    "ubicacion": "ABP 204",
     "observacion": "AULA",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
@@ -1892,7 +1892,7 @@
   {
     "id": "166338",
     "descripcion": "EQUIPO DE VIDEOCONFERENCIA TODO EN UNO POLY STUDIO. MONTAJE DE EQUIPOS",
-    "ubicacion": "",
+    "ubicacion": "ABP 204",
     "observacion": "",
     "tipo_inventario": "Mayor",
     "funcionario": "MILLER HUMBERTO SALAS R",
